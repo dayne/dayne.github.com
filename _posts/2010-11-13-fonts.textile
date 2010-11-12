@@ -1,0 +1,9 @@
+---
+layout: post
+title: sweet fonts
+---
+
+h1. Sweet Fonts
+
+http://www.zeldman.com/2010/03/22/my-lovehate-affair-with-typekit/
+http://www.zeldman.com/2009/08/17/web-fonts-and-standards/
