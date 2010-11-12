@@ -5,5 +5,20 @@ title: sweet fonts
 
 h1. Sweet Fonts
 
-http://www.zeldman.com/2010/03/22/my-lovehate-affair-with-typekit/
-http://www.zeldman.com/2009/08/17/web-fonts-and-standards/
+My custom font provided by "typekit":http://typekit.com pleased me, the little logo in the bottom right corner that showed up there because I'm using the free account not so much.  
+
+This inspired me to get educated as to what is going on here. The super short of it:  TypeKit is providing: font licensing (actually rental), hosting, optimization for browsers (they make it go for IE).
+
+This "zeldman":http://www.zeldman.com guy had some very well written explanations of things:
+* "zeldman's love hate affair with typekit":http://www.zeldman.com/2010/03/22/my-lovehate-affair-with-typekit/
+* "zeldmans' overview of web fonts and standards":http://www.zeldman.com/2009/08/17/web-fonts-and-standards/
+
+But it wasn't until I ran across Richard Fink's "Web Fonts at the Crossing":http://www.alistapart.com/articles/fonts-at-the-crossing/ that I found the term for what TypeKit was.  A “font hosting and obfuscation” service. 
+
+Finish reading Richard Fink's article and find my gut reaction is not only correct "this isn't the right path for me" but he points out the following warm fuzzys:
+* There are thousands of fonts for free (open and legal).
+* Google is "hosting":http://code.google.com/webfonts some of them - and providing an "AJAX API":http://code.google.com/apis/libraries/devguide.html#webfont to them
+* "FontSquirrel's FontFace generator":http://www.fontsquirrel.com/fontface/generator can take fonts you provide and prep them for usage
+* The Google ajax api code here on "GitHub - WebFont Loader":https://github.com/typekit/webfontloader - that must mean it is good stuff right?
+
+"A font import test":/random/font_import_test.html
