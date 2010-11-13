@@ -17,7 +17,7 @@ This "zeldman":http://www.zeldman.com guy had some very well written explanation
 
 But it wasn't until I ran across Richard Fink's "Web Fonts at the Crossing":http://www.alistapart.com/articles/fonts-at-the-crossing/ that I found the term for what TypeKit was.  A “font hosting and obfuscation” service. 
 
-Finish reading Richard Fink's article and find my gut reaction is not only correct "this isn't the right path for me" but he points out the following warm fuzzys:
+Finish reading Richard Fink's article and find my gut reaction was correct "_this isn't the right path for me_" but he provides the following happy points:
 * There are thousands of fonts for free (open and legal).
 * Google is "hosting":http://code.google.com/webfonts some of them - and providing an "AJAX API":http://code.google.com/apis/libraries/devguide.html#webfont to them
 * "FontSquirrel's FontFace generator":http://www.fontsquirrel.com/fontface/generator can take fonts you provide and prep them for usage
@@ -25,7 +25,7 @@ Finish reading Richard Fink's article and find my gut reaction is not only corre
 
 The "Google hosted":http://code.google.com/webfonts are simple to get started with using their example code...see my "font import test.":/random/font_import_test.html
 
-In the end, Julie and I sat down and looked through a variety of cool, free fonts available from "fontsquirrel's fontface kits":http://www.fontsquirrel.com/fontface and she picked out a replacement for my TypeKit font I was using.   I made a backup of "trying out jekyll":/random/trying_out_jekyll.html to see the TypeKit stuff in action.
+In the end, Julie and I sat down and looked through a variety of cool, free fonts available from "fontsquirrel's fontface kits":http://www.fontsquirrel.com/fontface and she picked out a replacement for my TypeKit font I was using.   I made a backup of "trying out jekyll":/random/trying_out_jekyll.html to see what I was talking about with the TypeKit applied to the site.
 
 Installation of one of those kits was fairly simple:
 
