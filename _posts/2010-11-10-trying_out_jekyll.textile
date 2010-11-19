@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Trying out Jekyll
+title: trying out jekyll
 ---
 
 h1. {{page.title}}

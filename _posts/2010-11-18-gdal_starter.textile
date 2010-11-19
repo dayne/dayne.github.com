@@ -1,0 +1,46 @@
+---
+layout: post
+title: gdal starter
+---
+
+h1. {{page.title}}
+
+p(meta). 18 Nov 2010 - Fairbanks (GINA)
+
+This is a work related ramble.
+
+h4. The Problem
+
+I received a pile of GeoTIFFs and MrSid files to showing different processing options available for a dataset.  I need to display these various datasets in both overview and full resolution to select users for feedback.  The collection of files is too large to just put on a USB stick and hand out to 30 or 40 people we want the feedback from (74GB of data). 
+
+h5. Options
+
+* Convert the whole lot of them to KMZ files and offer those out.  Probably will do this no matter what happens.
+* Shove each into a seperate layer of a WMS - Good idea!
+* WMS -> "Shiv":http://github.com/gina-alaska/shiv -> Google Maps interface - Great idea!
+
+...
+
+h5. Solution(s)
+
+MrSID is awkward to work with - GeoTIFF mmkay thx
+
+{% highlight bash %}
+for I in *.sid; do 
+  echo $I
+  gdal_translate -co compress=DEFLATE -co tiled=YES $I $I.tif 
+done
+{% endhighlight %}
+
+GeoTIFF optimizations.  Main goals: google projection, internal pyramid overviews built.  But first a just get this AlaskaAlbers (yay for that atleast) GeoTIFFS into a WMS.
+
+
+
+
+Shove into the 900913 projection to avoid reprojection on the fly over head for the target clients (google maps/google earth).  Just so it is clear, my epsg code file (share/proj/epsg) has the following for the "900913 projection":http://spatialreference.org/ref/sr-org/google-projection/ :
+{% highlight 
+<900913> +proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0 +k=1.0 +units=m +nadgrids=@@@null +wktext no_defs <>@
+
+{% highlight bash %}
+
+{% endhighlight %}
