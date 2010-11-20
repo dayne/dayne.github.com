@@ -5,7 +5,7 @@ title: gdal starter
 
 h1. {{page.title}}
 
-p(meta). 18 Nov 2010 - Fairbanks (GINA)
+p(meta). 20 Nov 2010 - Fairbanks (GINA)
 
 This is a work related ramble.
 
@@ -35,12 +35,71 @@ done
 GeoTIFF optimizations.  Main goals: google projection, internal pyramid overviews built.  But first a just get this AlaskaAlbers (yay for that atleast) GeoTIFFS into a WMS.
 
 
-
-
 Shove into the 900913 projection to avoid reprojection on the fly over head for the target clients (google maps/google earth).  Just so it is clear, my epsg code file (share/proj/epsg) has the following for the "900913 projection":http://spatialreference.org/ref/sr-org/google-projection/ :
-{% highlight 
+
 <900913> +proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0 +k=1.0 +units=m +nadgrids=@@@null +wktext no_defs <>@
 
-{% highlight bash %}
 
+{% highlight bash %}
+  blamo.rb */*/*.tif
 {% endhighlight %}
+
+Hey, what is blamo?  Silly ruby script of course to simply things:
+
+{% highlight ruby %}
+#!/usr/bin/env ruby
+ARGV.each do |source|
+  tname = "#{File.basename(source, '.tif')}_gm.tif"
+  target = File.join(File.dirname(source), tname)
+  if File.exists? target
+    puts "file exists already: #{target} ... skipping"
+    next 
+  end
+  raise "#{source} not exists" unless File.exists?(source)  
+  cmd = "gdalwarp --config GDAL_CACHEMAX 2000 -wm 1000 "       +
+        "  -t_srs EPSG:900913 -co compress=LZW -co tiled=YES " +
+        "  -rb #{source}  #{target}"
+  puts cmd
+  system(cmd)
+end
+{% endhighlight %}
+
+*what did I do wrong there?*  I forgot to set the nodata values.  The gdalwarp command should have included: @-dstnodata '0 0 0'@ 
+
+Now each of those need overviews added to them so interacting with all of them at once won't annihilate my computer.  I'm about to cheat and use a secret tool made by "spruceboy":https://github.com/spruceboy that he hasn't published called @add_overviews.rb@.  At the core is gdaladdo with the powers of 2 math automatically done.  Pretty much same as above only applied to *_gm.tif
+
+h3. Adding to the WMS
+
+I've got my own organization system for WMS layers (some self inspired others spruceboy directed).  I'll ignore all that and just show you what was required:
+
+{% highlight map %}
+MAP
+  NAME HISTOGRAM_SAMPLES
+
+  # avoid duplication
+  include 'includes/boilerplate_guts.include.map'
+
+  WEB
+    METADATA
+      include "includes/srsnformats.include.map"
+      "wms_onlineresource" "http://sorry-secrets-here/map/histogram?"
+    END
+  END
+
+  include "layers/histogram/cir_adjusted.map"
+  include "layers/histogram/rgb_adjusted.map"
+  include "layers/histogram/pan_adjusted_greyscale.map"
+  include "layers/histogram/pan_adjusted_singleband.map"
+
+  include "layers/histogram/cir_base.map"
+  include "layers/histogram/rgb_base.map"
+  include "layers/histogram/pan_base_greyscale.map"
+  include "layers/histogram/pan_base_singleband.map"
+END
+{% endhighlight %}
+
+
+
+create a tile index shapefile
+
+@gdaltindex indexes/rgb_adjusted.shp $DATADIR/RGB/*_gm.tif@
