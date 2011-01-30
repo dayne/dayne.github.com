@@ -1,0 +1,34 @@
+---
+layout: post
+title: html5 and css3
+---
+
+h1. {{page.title}}
+
+p(meta). 27 Jan 2011 - Fairbanks
+
+I absconded (supposed to be a one day borrow.. a week later) with a friends copy of "HTML5 and CSS3":http://pragprog.com/titles/bhh5/html5-and-css3  a "PragProg":http://pragprog.com book.
+
+I was struck how the very last chapter, very last section of the book, dealing with how to encode video for the web was dealt with.  The gist:  this is a difficult topic, so just run this code:
+
+{% highlight bash %}
+ffmpeg -i input.mov
+  -f webm -vcodec libvpx_vp8 -acodec libvorbis
+  -ab 160000 -sameq
+  output.webm
+{% endhighlight %}
+_tells me: webm is a container format (like matroska) and inside that shove vp8 for video codec and libvorbis for audio_
+
+That simple example explained to me what I needed to know and inspired me to abscond with the book for week to yank out other gems of knowledge and evaluate if we needed a copy of this for "GINA":http://www.gina.alaska.edu/
+
+* doctype to use for html5
+@<!DOCTYPE html >@
+* these html tags are *gone* (some of which I've been using)
+@basefont, big, center, font, s, strike, tt, u@
+* presentation elements killed (again, I've been using some of these)
+@align, bgcolor, height, width, valign, hspace, vspace, border@
+* @target@ is depricated on href!?  clearly I'm out of the loop 
+* New HTML tags to help reduce the div/div/div/div of our websites. "silly sample":/random/html5-silly-sample.txt
+@header, footer, nav, section, artile, aside, meter, progress@
+
+The book is in the mail. .. i'll come back and add more later as I transition this page to html5.
