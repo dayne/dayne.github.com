@@ -20,7 +20,7 @@ sudo chown -R dayne */node*
 curl http://npmjs.org/install.sh | sh 
 {% endhighlight %}
 
-At this point I've got myself some node fun, with npm to help me install things (like rubygems I guess).  Lets try this new capability out by installing "substack's node-browserify":https://github.com/substack/node-browserify
+At this point I've got myself some node fun, with "npm":http://npmjs.org/ to help me install things (like rubygems I guess).  Lets try this new capability out by installing "substack's node-browserify":https://github.com/substack/node-browserify
 
 @npm install -g browserify@
 
