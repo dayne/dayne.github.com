@@ -31,3 +31,6 @@ SubStack also reported browserify works with dnode and he has a handy ruby dnode
 @gem install dnode@
 
 There we are.  I'm all setup to do node, browserify, and dnode.   We will have to wait for a later date to have an intelligent post on how to use this stuff.
+
+My ending thought after finishing this whole process up is:
+*node.js needs @nvm@ (an "rvm":http://rvm.beginrescueend.com equivalent)
