@@ -5,7 +5,7 @@ title: mapwrap - mapserver cgi wrapper
 
 h1. {{page.title}}
 
-p(meta). 15 May 2011 - Denver (GINA)
+p(meta). 14 May 2011 - Denver (GINA)
 
 This week I had a presentation at the "USGS":http://usgs.gov national map about WMS and Tiling.  This prompted me to finish my thoughts on my CGI wrapper script I use for my WMS feeds.
 

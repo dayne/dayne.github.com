@@ -1,0 +1,33 @@
+---
+layout: post
+title: node.js quick start
+---
+
+h1. {{page.title}}
+
+p(meta). 15 May 2011 - Fairbanks
+
+I wanted to try out some of "substack's":http://github.com/substack crazy stuff.  Here is my quick start guide (as he instructed me):
+
+{% highlight bash %}
+git clone https://github.com/joyent/node
+cd node
+./configure --prefix=$HOME/usr  && make  && sudo make install
+# I hate having to sudo and trust this stuff
+cd /usr/local/
+sudo chown -R dayne */node* 
+# now to install the node package manager
+curl http://npmjs.org/install.sh | sh 
+{% endhighlight %}
+
+At this point I've got myself some node fun, with npm to help me install things (like rubygems I guess).  Lets try this new capability out by installing "substack's jquery-browserify":https://github.com/substack/node-browserify
+
+@npm install -g jquery-browserify@
+
+I'm not exactly sure what browserify does yet.  SubStack tells me it "bundles all your browser-side javascript so you can require() stuff like you can in node plus you can use npm modules in browser code".  Which I'm sure makes sense once you've used it.
+
+SubStack also reported browserify works with dnode and he has a handy ruby dnode gem.  Might as well grab "substack's dnode for ruby":https://github.com/substack/dnode-ruby for ruby, so I can dnode things later (I don't know what that means yet":
+
+@gem install dnode@
+
+There we are.  I'm all setup to do node, browserify, and dnode.   We will have to wait for a later date to have an intelligent post on how to use this stuff.
