@@ -20,13 +20,13 @@ sudo chown -R dayne */node*
 curl http://npmjs.org/install.sh | sh 
 {% endhighlight %}
 
-At this point I've got myself some node fun, with npm to help me install things (like rubygems I guess).  Lets try this new capability out by installing "substack's jquery-browserify":https://github.com/substack/node-browserify
+At this point I've got myself some node fun, with npm to help me install things (like rubygems I guess).  Lets try this new capability out by installing "substack's node-browserify":https://github.com/substack/node-browserify
 
-@npm install -g jquery-browserify@
+@npm install -g browserify@
 
-I'm not exactly sure what browserify does yet.  SubStack tells me it "bundles all your browser-side javascript so you can require() stuff like you can in node plus you can use npm modules in browser code".  Which I'm sure makes sense once you've used it.
+I'm not exactly sure what browserify does yet.  SubStack tells me it _"bundles all your browser-side javascript so you can require() stuff like you can in node plus you can use npm modules in browser code"_.  Which I'm sure makes sense once you've used it.
 
-SubStack also reported browserify works with dnode and he has a handy ruby dnode gem.  Might as well grab "substack's dnode for ruby":https://github.com/substack/dnode-ruby for ruby, so I can dnode things later (I don't know what that means yet":
+SubStack also reported browserify works with dnode and he has a handy ruby dnode gem.  Might as well grab "substack's dnode for ruby":https://github.com/substack/dnode-ruby for ruby, so I can dnode things later (I don't know what that means yet):
 
 @gem install dnode@
 
