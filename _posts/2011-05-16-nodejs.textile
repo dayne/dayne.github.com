@@ -7,7 +7,7 @@ h1. {{page.title}}
 
 p(meta). 15 May 2011 - Fairbanks
 
-I wanted to try out some of "substack's":http://github.com/substack crazy stuff.  Here is my quick start guide (as he instructed me):
+I wanted to try out some of "substack's":http://github.com/substack crazy stuff.  Here is my quick start guide for "node.js":http://nodejs.org (as he instructed me):
 
 {% highlight bash %}
 git clone https://github.com/joyent/node
@@ -33,4 +33,9 @@ SubStack also reported browserify works with dnode and he has a handy ruby dnode
 There we are.  I'm all setup to do node, browserify, and dnode.   We will have to wait for a later date to have an intelligent post on how to use this stuff.
 
 My ending thought after finishing this whole process up is:
-*node.js needs @nvm@ (an "rvm":http://rvm.beginrescueend.com equivalent)
+"node.js":http://nodejs.org/ needs @nvm@ (an "rvm":http://rvm.beginrescueend.com equivalent)
+
+Finishing thoughts:
+@npm install -g jquery-browserify@
+@$ = require('jquery-browserify')#  after you@
+_jquery-browserify is just jquery packaged up to work with browserify_
