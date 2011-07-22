@@ -24,7 +24,8 @@ body {
 
 h1, h2, h3, h4, h5, h6 {
   font-size: 110%;
-  font-family: 'OrbitronLight', Arial, sans-serif;
+/*  font-family: 'OrbitronLight', Arial, sans-serif; */
+  font-family: 'Lekton', sans-serif;
 }
 
 h1 {
@@ -92,7 +93,8 @@ ul.posts {
   color: #a00;
   font-weight: bold;
   margin-bottom: 2em;
-  font-family: 'OrbitronLight', Arial, sans-serif;
+  /* font-family: 'OrbitronLight', Arial, sans-serif; */
+  font-family: 'Lekton', sans-serif;
 }
 
   .site .title a {
@@ -116,7 +118,8 @@ ul.posts {
 
   .site .meta {
     color: #aaa;
-    font-family: 'OrbitronLight', Arial, sans-serif;
+   /* font-family: 'OrbitronLight', Arial, sans-serif; */
+    font-family: 'Lekton', sans-serif;
   }
 
   .site .footer {
