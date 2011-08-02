@@ -13,10 +13,10 @@ This is a bit unorganized yum install collection because as I found missing deps
 
 {% highlight bash %}
 yum install cmake flex bison qt4-devel sqlite3-devel qwt-devel \ 
-            git proj-devel geos-devel gdal-devel \ 
-            graphviz graphviz-devel doxygen grass-devel grass \
-            compat-expat1 expat-devel gsl-devel PyQt4-devel \
-            qt-webkit qtwebkit-devel 
+  git proj-devel geos-devel gdal-devel \ 
+  graphviz graphviz-devel doxygen grass-devel grass \
+  compat-expat1 expat-devel gsl-devel PyQt4-devel \
+  qt-webkit qt-webkit-devel 
 {% endhighlight %}
 
 I had: proj, geos, gdal/ogr from the GINA magic 'mapping tools' sauce.  I'll document how to get that setup on Fedora in another post. 
