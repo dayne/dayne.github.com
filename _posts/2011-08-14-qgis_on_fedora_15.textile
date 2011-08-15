@@ -14,12 +14,12 @@ h4. dependancies
 The old dependancies line almost is good enough but a few tweaks are needed.  The follow up line:
 
 {% highlight bash %}
-yum install sqlite-devel gsl-devel
+yum install sqlite-devel # sqlite3-devel gone
 {% endhighlight %}
 
 h4. compiling
 
-Fedora 15's cmake is a bit different than Fedora 14s.  Changed up from the menu system to fully command line parameter passing for this one.  For some reason the cmake .. was returning /libgdal.so instead of /usr/lib64/libgdal.so as it should have for yum installed gdal so I had to set the GDAL_LIBRARY:STRING variable.
+Fedora 15's cmake is a bit different than Fedora 14s.  Changed up from the menu system to fully command line parameter passing for this one.  For some reason the cmake .. was returning /libgdal.so instead of /usr/lib64/libgdal.so as it should have for yum installed gdal. Fortunately you can easily tell cmake corrected GDAL_LIBRARY:STRING variable.
 
 {% highlight bash %}
 mkdir ~/qgis # changed up install location
