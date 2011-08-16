@@ -1,6 +1,6 @@
 ---
 layout: post
-title: fedora 15 notes
+title: fedora 15 qgis notes
 ---
 
 h1. {{page.title}}
@@ -9,9 +9,9 @@ p(meta). 08 August 2011 - Fairbanks
 
 This is a follow up post to my "Installing QGIS from git on Fedora":/2011/07/21/qgis_from_git.html with the additional details/changes needed for Fedora 15.
 
-h4. dependancies 
+h4. dependencies 
 
-The old dependancies line almost is good enough but a few tweaks are needed.  The follow up line:
+The old dependencies line almost is good enough but a few tweaks are needed.  The follow up line:
 
 {% highlight bash %}
 yum install sqlite-devel # sqlite3-devel gone
@@ -30,3 +30,11 @@ cmake -L # check out what it will be doing
 make
 make install
 {% endhighlight %}
+
+h5. follow up
+
+Gnome 3 did not please me.  I fixed that with:
+
+@sudo yum groupinstall Xfce@
+
+The libtiff library still does not support BigTIFF format (since libtiff-4 is still labeled beta).  This meant that I have already (3 days) abandoned the yum installed gdal, proj, libtiff, and partners in favor of the "GINA":http://gina.alaska.edu/ recipe.
