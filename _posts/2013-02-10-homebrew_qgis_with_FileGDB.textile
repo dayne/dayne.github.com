@@ -13,9 +13,8 @@ homebrew already setup on my handsome OSX laptop.  Got QGIS installed via the Ky
 
 h3. update homebrew
 
-  @brew update@
-
-  @brew upgrade@
+@brew update@  
+@brew upgrade@
 
 Then go through a few brew installs to fix missing dependancies to achieve updated homebrew setup... it had been a while since I updated my brew.
 
