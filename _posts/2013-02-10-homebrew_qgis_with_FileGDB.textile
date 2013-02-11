@@ -14,6 +14,7 @@ homebrew already setup on my handsome OSX laptop.  Got QGIS installed via the Ky
 h3. update homebrew
 
   @brew update@
+
   @brew upgrade@
 
 Then go through a few brew installs to fix missing dependancies to achieve updated homebrew setup... it had been a while since I updated my brew.
@@ -41,23 +42,28 @@ _And lets not even get started on the EULA - they should have a specific EULA fo
 
 Anyway - downloaded the FileGDB_API_1_2-64.zip
 
-<code>
-  unzip -d FileGDB_API_1_2-64 FileGDB_API_1_2-64.zip 
-  mv FileGDB_API_1_2-64 /usr/local/opt
-  cd /usr/local/include
-  ln -s ../opt/FileGDB_API_1_2-64/FileGDB_API/include/* .
-  cd ../lib
-  ln -s ../opt/FileGDB_API_1_2-64/FileGDB_API/lib/lib* .
-</code>
+  @unzip -d FileGDB_API_1_2-64 FileGDB_API_1_2-64.zip @
+
+  @mv FileGDB_API_1_2-64 /usr/local/opt@
+
+  @cd /usr/local/include@
+
+  @ln -s ../opt/FileGDB_API_1_2-64/FileGDB_API/include/* .@
+
+  @cd ../lib@
+
+  @ln -s ../opt/FileGDB_API_1_2-64/FileGDB_API/lib/lib* .@
 
 h3. install the GDAL
 
 Now our GDAL can be built with the magic sauce - but I already had it so remove existing gdal:
 
   @brew uninstall gdal@
+
   @brew install gdal --enable-unsupported@
 
 h3. tap science for qgis recipie 
 
-  brew tap homebrew/science
-  brew install qgis
+  @brew tap homebrew/science@
+
+  @brew install qgis@
