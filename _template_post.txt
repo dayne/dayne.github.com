@@ -1,0 +1,7 @@
+---
+title:
+layout: post
+---
+# {{page.title}}
+ 
+<p class='#meta'>{{page.date}}</p>
