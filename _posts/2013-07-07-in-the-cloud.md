@@ -36,18 +36,20 @@ host cloud
   IdentityFile ~/.ssh/cloud.pem
   ForwardAgent yes
 </pre>
+<br />
  
 ## Adding 1GB swapfile ##
 
 Then to make sure I had wiggle room during compiles and other silly stuff following:
 
-```Shell
+<pre>
 sudo su -
 dd if=/dev/zero of=/swapfile bs=1M count=1024
 mkswap /swapfile
 swapon /swapfile 
 echo "/swapfile swap swap defaults 0 0" >> /etc/fstab
-```
+</pre>
+
 ## DNS record ##
 
 The quick start for getting a domain pointing at your EC2 instance is to take the *Public DNS* record for the instance and use it as a CNAME target.  Super easy so clearly not for me. _I want my A record_
@@ -64,10 +66,10 @@ To truely be crazy Amazon AWS only we should look more carefully at [Amazon Rout
 
 Next step is to make something live here.  Port 80 is open but nobody is listening.  Apache would be normally be my flavor of choice but not today. Nginx learning time. random google response for [ubuntu nginx](https://www.digitalocean.com/community/articles/how-to-install-nginx-on-ubuntu-12-04-lts-precise-pangolin)
 
-```Shell
+<pre>
 sudo apt-get install nginx      # install
 sudo service nginx start        # start right now
 sudo update-rc.d nginx defaults # start on boot
-```
+</pre>
 
 Too easy... _if you consider a default blank website success_
