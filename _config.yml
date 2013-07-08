@@ -1,4 +1,4 @@
-markdown: rdiscount
+markdown: github-markdown
 safe: true
 lsi: false
 pygments: true
@@ -9,3 +9,7 @@ exclude:
  - .gitignore
  - _config.yml
  - Gemfile
+post:
+  template: _template_post.txt
+  extension: md
+editor: vim
