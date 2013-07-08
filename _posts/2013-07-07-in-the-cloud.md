@@ -29,19 +29,19 @@ When created the new machine I created a new key-pair - download PEM file - toss
 
 Then to make access the running instance as easy as `ssh cloud` I added the following 'cloud' host entry to .ssh/config
 
-```
+<pre>
 host cloud
   user ubuntu
   HostName #REDACTED#.us-west-2.compute.amazonaws.com
   IdentityFile ~/.ssh/cloud.pem
   ForwardAgent yes
-```
+</pre>
  
 ## Adding 1GB swapfile ##
 
 Then to make sure I had wiggle room during compiles and other silly stuff following:
 
-```
+```Shell
 sudo su -
 dd if=/dev/zero of=/swapfile bs=1M count=1024
 mkswap /swapfile
@@ -64,7 +64,7 @@ To truely be crazy Amazon AWS only we should look more carefully at [Amazon Rout
 
 Next step is to make something live here.  Port 80 is open but nobody is listening.  Apache would be normally be my flavor of choice but not today. Nginx learning time. random google response for [ubuntu nginx](https://www.digitalocean.com/community/articles/how-to-install-nginx-on-ubuntu-12-04-lts-precise-pangolin)
 
-```
+```Shell
 sudo apt-get install nginx      # install
 sudo service nginx start        # start right now
 sudo update-rc.d nginx defaults # start on boot
