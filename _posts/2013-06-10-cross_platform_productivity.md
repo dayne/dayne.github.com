@@ -35,4 +35,11 @@ I need a TotalTerminal Windows alternative that hands me a PowerShell. I've not 
 
 ## Linux
 
-Terminals everywhere solve my problem.  I miss skitch for Linux.  I know there are some good alternatives but my most used Linux is a RHEL6 box that doesn't make any of the interesting ones available.  I'll come back once I've Ubuntu'ed myself a bit more.  For some reason I don't use a TotalTerminal like option in Linux (dispite plenty available).
+Terminals everywhere solve my problem.  I miss skitch for Linux. 
+
+Gnome DO or [Launchy](http://www.launchy.net/) - `yum install launchy`
+
+[Shutter](http://shutter-project.org/) -- `yum install shutter`
+
+For some reason I don't use a TotalTerminal like option in Linux 
+(dispite plenty available).
