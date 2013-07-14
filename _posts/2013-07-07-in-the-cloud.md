@@ -63,7 +63,7 @@ Pricing for the elastic IP appears to be free (on top if per-hour charge of my i
 
 To truely be crazy Amazon AWS only we should look more carefully at [Amazon Route 53](http://aws.amazon.com/route53/) for hosting the DNS records for these efforts.
 
-## Apache web server ##
+## Web server ##
 
 Next step is to make something live here.  Port 80 is open but nobody is listening.  Apache would be normally be my flavor of choice but not today. Nginx learning time. random google response for [ubuntu nginx](https://www.digitalocean.com/community/articles/how-to-install-nginx-on-ubuntu-12-04-lts-precise-pangolin)
 
