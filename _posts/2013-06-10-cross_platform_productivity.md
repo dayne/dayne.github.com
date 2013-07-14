@@ -37,7 +37,7 @@ I need a TotalTerminal Windows alternative that hands me a PowerShell. I've not 
 
 Terminals everywhere solve my problem.  I miss skitch for Linux. 
 
-Gnome DO or [Launchy](http://www.launchy.net/) - `yum install launchy`
+*Gnome DO* or [Launchy](http://www.launchy.net/) - `yum install launchy` - either way bind to control-space again
 
 [Shutter](http://shutter-project.org/) -- `yum install shutter`
 
