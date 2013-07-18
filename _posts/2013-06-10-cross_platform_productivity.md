@@ -11,7 +11,7 @@ Bouncing between a variety of machines and platforms regulary (multiple times in
 
 Capslock as Control - I don't care what platform I'm on - I want my control key where everybody keeps putting that useless key CAPSLOCK.  Also handy for later on when I want simple keybinds consistent across platforms.
 
-Google Chrome web browser keeps track of things (browsing history) very well as I bounce between machines I don't even think about where I was opening up a window - I just start typing in the address bar and chrome starts autofilling based on any one of my boxes browsing history.  Creepy - but creepy awesome.
+[Google Chrome](http://google.com/chrome) web browser keeps track of things (browsing history) very well as I bounce between machines I don't even think about where I was opening up a window - I just start typing in the address bar and chrome starts autofilling based on any one of my boxes browsing history.  Creepy - but creepy awesome.
 
 ## MacOSX
 
@@ -19,9 +19,20 @@ Google Chrome web browser keeps track of things (browsing history) very well as 
 
 [TotalTerminal](http://totalterminal.binaryage.com/) provides a quake style drop down terminal that slides down from the top of the screen on top of whatever I'm looking at (usually a chrome window).  I use CONTROL+; to toggle TotalTerminal.  I launch it after a reboot by bringing up Alphred since I never learned how to make it auto launch on reboot.
 
-[Evernote's Skitch](http://evernote.com/skitch/) is the last puzzle peice for easy to annotate screen clips.  Launch with Alpphred and then you can CONTROL+SHIFT+5 to trigger a screen clip.
+[Evernote's Skitch](http://evernote.com/skitch/) is the last puzzle peice for easy to annotate screen clips.  Launch with Alpphred and then you can CONTROL+SHIFT+5 to trigger a screen clip. Available in AppStore
+
+*MplayerX* video player - Available in AppStore
+
+*Xcode* compilers - need command line tools installed so homebrew is an option
+
+System Preferences -> Keyboard -> Modifier Keys -> Capslock as Control
+
+Terminal hidden in Utilities 
+
+*Growl* - Available in AppStore  
 
 The rest of making a Mac box useful comes from TotalTerminal and [HomeBrew](http://mxcl.github.io/homebrew/)
+
 
 ## Windows
 
