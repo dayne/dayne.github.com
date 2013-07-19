@@ -33,6 +33,11 @@ Terminal hidden in Utilities
 
 The rest of making a Mac box useful comes from TotalTerminal and [HomeBrew](http://mxcl.github.io/homebrew/)
 
+Misc other things to install on OSX
+
+* [XQuartz](http://xquartz.macosforge.org/landing/) will be needed for homebrew deps
+* [rbenv](http://rbenv.org/) and ruby-build for getting a good ruby
+
 
 ## Windows
 
