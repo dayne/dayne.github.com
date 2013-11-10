@@ -3,12 +3,30 @@ layout: default
 title: Dayne Broderson
 ---
 
-<div id="home">
-  <h2>Rambles</h2>
-  <ul class="posts">
-    {% for post in site.posts %}
+<div class="row">
+
+  <div class="col-xs-9">
+    <h2>latest 5 posts:</h2>
+    <ul class="posts list-unstyled text-left">
+      {% for post in site.posts limit:5 %}
       <li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ post.url }}">{{ post.title }}</a></li>
-    {% endfor %}
-  </ul>
+      {% endfor %}
+    </ul>
+    <a href="posts.html">... all posts</a>
+  </div>
+  <div class="col-xs-1"> </div>
+  <div class="col-xs-2 text-right">
+    <strong>Topics</strong>
+    <ul class="list-unstyled text-right">
+      <li>osx setup</li>
+    </ul>
+    <strong>Projects</strong>
+    <ul class="list-unstyled text-right">
+      <li>1 projc</li>
+      <li>osx setup</li>
+      <li>osx setup</li>
+      <li>osx setup</li>
+    </ul>
+  </div>
 
 </div>
