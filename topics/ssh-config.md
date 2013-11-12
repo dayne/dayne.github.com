@@ -28,6 +28,7 @@ Host next_host_alias_not_trusted_as_much
 
 Git identiy forwarding:
 
+```
 # making myself happy by setting this:
 export GIT_AUTHOR_NAME="Dayne Broderson"
 export GIT_AUTHOR_EMAIL=dayne@alaska.edu
@@ -38,3 +39,4 @@ export GIT_COMMITTER_EMAIL="$GIT_AUTHOR_EMAIL"
 # # top level global setting - remote sshd /etc/ssh/sshd_config
 # # will need the following configuration tweak:
 # AcceptEnv GIT_*
+```
