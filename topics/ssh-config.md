@@ -3,11 +3,14 @@ title: .ssh/config
 layout: default
 ---
 
+# .ssh/config
+
 One of the more powerful tools in your toolchest for rapidly bouncing between systems like a ninja is your *.ssh/config*
 
 Your primary workstations (laptop and/or desktop) should have a carefully curated ssh_config file to optimize your daily operations.
 
-## Global Options
+### Global Options
+
 ```
 Compression yes
 VisualHostKey yes
@@ -26,7 +29,9 @@ Host next_host_alias_not_trusted_as_much
   User username 
 ```
 
-Git identiy forwarding:
+### .bashrc
+
+Git identiy forwarding for your .bashrc or .zshrc: 
 
 ```
 # making myself happy by setting this:
