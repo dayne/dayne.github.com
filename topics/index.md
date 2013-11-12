@@ -3,5 +3,8 @@ name: Focused Topics
 layout: default
 ---
 
-* SSH config : [~/.ssh/config](ssh-config.html)
-* [OSX Setup](/p/osx-setup.html)
+### Various things I want to keep updated as time goes by
+
+<ul class="well lead list-unstyled">
+{% include topics.html %}
+</ul>

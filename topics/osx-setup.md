@@ -22,18 +22,18 @@ killall Dock
 
 ## Basics - App Store Installs ##
 
-* Xcode : https://developer.apple.com/xcode/
- * Once installed launch, accept license and then install command line utils via terminal:
- * ```xcode-select --install```
+* Xcode : [developer.apple.com/xcode](https://developer.apple.com/xcode/)
+* Once Xcode is installed launch it and accept the license and then install command line utils via terminal:
+  * ```xcode-select --install```
 * Evernote - Note taking
 * Skitch - Screen cap/image scribbler
-* OmniGraffle - Diagram/Graph editing
-* Acorn 4 - Photoshop alternative
-* Apeture - Photo editing software
-* Flint - Campfire client
-* Keynote - Present those slides
-* Twitter - Yeah
-* Growl - App messaging
+* OmniGraffle - Diagram/Graph editing *$$$*
+* Acorn 4 - Photoshop alternative *$$$*
+* Apeture - Photo editing software *$$$*
+* Flint - Campfire client *$$$* 
+* Keynote - Present those slides 
+* Twitter - Yeah 
+* Growl - App messaging 
 * MPlayerX - Watch them movies
 
 ## Basics - Download and Installs (outside of AppStore)
@@ -56,10 +56,17 @@ Time to get the real magic sauce going that transforms this bucket into a rocket
 
 ### Homebrew
 
-This is installed via ruby which OSX 10.9 (Mavericks) ships with ruby2.0.0p247.  Awesome enough for me.
+This is installed via ruby which OSX 10.9 (Mavericks) ships with ruby2.0.0p247.  Awesome enough for that job but not for long.
+
+### Ruby
 
 ```
-# put it here
+# put details here
+# switching methods though
 ```
+
+### Ruby
+
+gem install vagrant
 
 
