@@ -54,6 +54,12 @@ killall Dock
 
 Time to get the real magic sauce going that transforms this bucket into a rocket ship.  Make sure you got GitHub Mac, XCode and the XCode command line utils already.
 
+----
+
+## *below is unfinished*
+
+----
+
 ### Homebrew
 
 This is installed via ruby which OSX 10.9 (Mavericks) ships with ruby2.0.0p247.  Awesome enough for that job but not for long.
@@ -63,10 +69,10 @@ This is installed via ruby which OSX 10.9 (Mavericks) ships with ruby2.0.0p247. 
 ```
 # put details here
 # switching methods though
+# probably just reference d.init or laptop
 ```
 
-### Ruby
+### Ruby tools
 
-gem install vagrant
-
-
+* vagrant
+* ... and more
