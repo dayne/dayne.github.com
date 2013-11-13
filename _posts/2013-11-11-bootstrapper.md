@@ -30,13 +30,17 @@ I have kept things fairly simple. Basic of the html is:
     </head>
     <body>
       <div class="container">
+
         <div class="header">
-        </div>
+        </div> <!-- end header -->
+
         <div class="hero-unit">
            # the content here
-        </div> <!-- end main
+        </div> <!-- end main -->
+
         </div class="footer">
         </div> <!-- end footer -->
+
       </div> <!-- end container -->
       # now include your javascript (see below)
     </body>
