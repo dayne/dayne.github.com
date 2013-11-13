@@ -3,7 +3,7 @@ title: OSX Setup
 layout: default
 ---
 
-# OSX Setup #
+# OSX Setup v1311 #
 
 This topic got started with my blog post on [Cross Platform Produtivity](/2013/06/10/cross_platform_productivity.html).
 
@@ -60,10 +60,6 @@ Time to get the real magic sauce going that transforms this bucket into a rocket
 
 ----
 
-### Homebrew
-
-This is installed via ruby which OSX 10.9 (Mavericks) ships with ruby2.0.0p247.  Awesome enough for that job but not for long.
-
 ### Ruby
 
 ```
@@ -72,7 +68,31 @@ This is installed via ruby which OSX 10.9 (Mavericks) ships with ruby2.0.0p247. 
 # probably just reference d.init or laptop
 ```
 
-### Ruby tools
+### Homebrew
+
+This is installed via ruby which OSX 10.9 (Mavericks) ships with ruby2.0.0p247.  Awesome enough for that job but not for long.
+
+```
+ruby <(curl -fsSkL raw.github.com/mxcl/homebrew/go)
+# ... let that do magic
+# then general magic follows:
+brew doctor  # sanity check brew
+brew search  # search for an application
+brew install <application-name> # install it
+brew list    # list all programs installed 
+brew remove <application-name>  # toast it
+brew update  # keep your brew happy
+cd /usr/local/Cellar # check out your stuff
+```
+
+If all is kosher then time to slam home a pile of tools:
+
+```
+brew install htop moreutils tmux tree
+```
+
+
+## more stuff
 
 * vagrant
 * ... and more
