@@ -35,14 +35,14 @@ I have kept things fairly simple. Basic of the html is:
         </div> <!-- end header -->
 
         <div class="hero-unit">
-           # the content here
+            <!-- main body content  -->
         </div> <!-- end main -->
 
         </div class="footer">
         </div> <!-- end footer -->
 
       </div> <!-- end container -->
-      # now include your javascript (see below)
+      <!-- now include your javascript (see below) -->
     </body>
     </html>
 
