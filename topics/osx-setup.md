@@ -54,20 +54,6 @@ killall Dock
 
 Time to get the real magic sauce going that transforms this bucket into a rocket ship.  Make sure you got GitHub Mac, XCode and the XCode command line utils already.
 
-----
-
-## *below is unfinished*
-
-----
-
-### Ruby
-
-```
-# put details here
-# switching methods though
-# probably just reference d.init or laptop
-```
-
 ### Homebrew
 
 This is installed via ruby which OSX 10.9 (Mavericks) ships with ruby2.0.0p247.  Awesome enough for that job but not for long.
@@ -91,6 +77,20 @@ If all is kosher then time to slam home a pile of tools:
 brew install htop moreutils tmux tree
 ```
 
+### Ruby
+
+```
+brew install chruby 
+brew install ruby-build
+ruby-build 2.0.0-p247
+chruby 2.0.0-p247
+```
+
+----
+
+## *below is unfinished*
+
+----
 
 ## more stuff
 
