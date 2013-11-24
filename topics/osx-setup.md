@@ -36,25 +36,30 @@ killall Dock
 * Growl - App messaging 
 * MPlayerX - Watch them movies
 
-## Basics - Download and Installs (outside of AppStore)
+## Basics - Download and Installs 
+
+The following are non-AppStore installs:
 
 * [TotalTerminal](http://totalterminal.binaryage.com)
- * Preferences -> Total Terminal -> set to use control + ; to launch
- * Preferences -> Startup -> Default -> Pro
- * Preferences -> Settings -> (Pro) -> Shell -> When the shell exits: Close if the shell exited cleanly
+  * Preferences -> Total Terminal -> set to use control + ; to launch
+  * Preferences -> Startup -> Default -> Pro
+  * Preferences -> Settings -> (Pro) -> Shell -> When the shell exits: Close if the shell exited cleanly
 * [Google Chrome](http://chrome.google.com)
 * [Google Earth](http://earth.google.com) 
 * [Alphred](http://www.alphredapp.com) - App Launcher
- * Set to use control + space to launch it
+  * Set to use control + space to launch it
 * [XQuartz](http://xquartz.macosforge.org/landing/) - X.Org of OSX
+* [git-annex](#git-annex) *see section below*
 * [GitHub Mac](http://mac.github.com) 
- * Install the command line utils during first launch
+  * Install the command line utils during first launch
+* [Ruby](#ruby) *see section below*
+* [Homebrew](#homebrew) *see section below*
 
 ## Advanced Science ##
 
 Time to get the real magic sauce going that transforms this bucket into a rocket ship.  Make sure you got GitHub Mac, XCode and the XCode command line utils already.
 
-### Homebrew
+### [Homebrew](id:homebrew) ##
 
 This is installed via ruby which OSX 10.9 (Mavericks) ships with ruby2.0.0p247.  Awesome enough for that job but not for long.
 
@@ -77,7 +82,7 @@ If all is kosher then time to slam home a pile of tools:
 brew install htop moreutils tmux tree
 ```
 
-### Ruby
+### [Ruby](id:ruby) ###
 
 ```
 brew install chruby 
@@ -86,13 +91,35 @@ ruby-build 2.0.0-p247
 chruby 2.0.0-p247
 ```
 
-----
 
-## *below is unfinished*
+### [git-annex](id:git-annex) ###
 
-----
+Download the dmg file: [http://git-annex.branchable.com/install/OSX/](http://git-annex.branchable.com/install/OSX/)
+
+Copy it to your Applications folder and in Finder right click on it to open it.
+
+Then add the following to your .bashrc
+
+```
+# GIT ANNEX
+ANNEX_HOME=/Applications/git-annex.app/Contents/MacOS
+if [[ -s $ANNEX_HOME ]]; then
+  PATH=$PATH:$ANNEX_HOME
+fi
+```
+
+### [chef](id:chef) ###
+
+```
+curl -L https://www.opscode.com/chef/install.sh | sudo bash
+```
+
+<em>2013.11.23: Latest OSX failed. See following gist for the fix: [install chef OSX mavericks](https://gist.github.com/driesvints/7160641)</em>
+
+<div class="alert alert-warning"><h2><span class="glyphicon glyphicon-warning-sign"></span> 
+*below is unfinished* 
+</h2></div>
 
 ## more stuff
 
 * vagrant
-* ... and more
