@@ -7,6 +7,8 @@ title: Cross Platform Productivity
 
 <p class='#meta'>12th June 2013 - Fairbanks</p>
 
+<p class="alert alert-success"> See my <a href="/topics/osx-setup.htlm">OSX setup notes</a> for current details </p>
+
 Bouncing between a variety of machines and platforms regulary (multiple times in an hour) I find myself gravitating to a few tools available to just make it easy.  
 
 Capslock as Control - I don't care what platform I'm on - I want my control key where everybody keeps putting that useless key CAPSLOCK.  Also handy for later on when I want simple keybinds consistent across platforms.
