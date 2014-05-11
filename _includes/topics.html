@@ -1,3 +1,5 @@
-<li><a href="/topics/osx-setup.html">osx-setup</a></li>
-<li><a href="/topics/ssh-config.html">~/.ssh/config</a></li>
-<li><a href="/topics/forking.html">forking workflow</a></li>
+{% for post in site.topics %}
+  <li>
+    <a href="{{ post.url }}">{{ post.title}}</a>
+  </li>
+{% endfor %}

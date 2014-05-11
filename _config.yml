@@ -16,3 +16,7 @@ editor: vim
 gems:
  - jemoji
  - jekyll-sitemap
+collections:
+  topics:
+    output: true
+    layout: default
