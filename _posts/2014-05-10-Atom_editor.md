@@ -27,7 +27,7 @@ Now I've got a handy preview pane to let me know
 if I'm remembering my markdown syntax correctly
 and extra bonus is there is a spell checker built
 into atom editor that give me the red squiggle of
-of warning for me.
+of warning for me. :+1:
 
 ### Atom editor setup
 
@@ -83,4 +83,6 @@ I find myself wondering how much more I could integrate
 markdown into my work related writing I end up doing.
 
 Perhaps my next proposal I can do in the Atom Editor
-with Markdown.  Fun times.
+with Markdown.  
+
+Fun times :sparkles:

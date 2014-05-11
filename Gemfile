@@ -5,4 +5,4 @@ gem "RedCloth"
 gem "rdiscount"
 gem "highline"
 gem "colored"
-
+gem 'jemoji'

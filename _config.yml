@@ -13,3 +13,6 @@ post:
   template: _template_post.txt
   extension: md
 editor: vim
+gems:
+ - jemoji
+ - jekyll-sitemap
