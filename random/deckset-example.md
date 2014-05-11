@@ -6,6 +6,8 @@
 
 ## [damnitalex](http://damnitalex.com) time
 
+![fit](http://damnitalex.com/images/photo.JPG)
+
 ---
 
 ![fit](http://damnitalex.com/images/photo.JPG)

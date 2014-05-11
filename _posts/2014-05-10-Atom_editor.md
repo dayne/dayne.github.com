@@ -54,6 +54,8 @@ Exmple 3 slide Deckset markdown:
 
 ## [damnitalex](http://damnitalex.com) time
 
+![fit](http://damnitalex.com/images/photo.JPG)
+
 ---
 
 ![fit](http://damnitalex.com/images/photo.JPG)
