@@ -37,7 +37,7 @@ a markdown based slideshow tool called
 
 # Deckset
 
-[Deckset](http://www.decksetapp.com/) (OSX only) 
+[Deckset](http://www.decksetapp.com/) (OSX only)
 takes a simple markdown document formatted
 just right and turns it into a slideshow.  Weirdly
 enough Deckset is magically aware of atom and when
@@ -69,3 +69,18 @@ markdown into my work related writing I end up doing.
 
 Perhaps my next proposal I can do in the Atom Editor
 with Markdown.  Fun times.
+
+# Atom editor setup
+
+Install for your platform and then do the following:
+
+* Atom Menu &#8594; Install Shell Commands
+ * Gives you two command line apps: atom and apm (tool to install pcakges)
+* Atom Menu &#8594; Preferences &#8594; Packages &#8594; Install Packages
+ * [Vim Mode](https://atom.io/packages/vim-mode)
+   * ```apm install vim-mode```
+ * [Zen](https://atom.io/packages/Zen) # distraction free writing
+   * ```apm install zen```
+
+Find more cool packages at
+[https://atom.io/packages/](https://atom.io/packages/vim-mode)
