@@ -37,7 +37,8 @@ a markdown based slideshow tool called
 
 # Deckset
 
-Deckset takes a simple markdown document formatted
+[Deckset](http://www.decksetapp.com/) (OSX only) 
+takes a simple markdown document formatted
 just right and turns it into a slideshow.  Weirdly
 enough Deckset is magically aware of atom and when
 open it will create a little preview pane overlay.
