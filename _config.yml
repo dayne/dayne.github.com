@@ -1,7 +1,7 @@
 markdown: rdiscount
 safe: true
 lsi: false
-pygments: true
+highlither: pygments
 port: 7000
 title : broderson.org
 exclude:
