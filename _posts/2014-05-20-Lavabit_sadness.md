@@ -1,5 +1,6 @@
 ---
 title: lavabit sadness
+layout: post
 ---
 
 # Legal evil used against Lavabit
