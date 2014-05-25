@@ -42,11 +42,11 @@ Then last week [GINA](http://gina.alaska.edu) was
 contacted for a shapefile of the UAF campus trails.
 In the process of digging around the community to find
 the data the email thread expanded out to loop in some
-of the Fairbanks Drone User Group.  The group felt
-that if we couldn't find the trails as shapefiles we
-could go map the trails using a UAV.  We decided to
-meet up at the IARC/WRRB parking lot and play with
-a UAV.
+of the [Fairbanks Drone User Group](http://www.meetup.com/FBXDUG/).
+The group felt that if we couldn't find the trails as
+shapefiles we could go map the trails using a UAV.  We
+decided to meet up at the IARC/WRRB parking lot and play
+with a UAV.
 
 This saturday afternoon we gathered together to give a
 shot at doing some UAV flying.  The wind turned out to be
