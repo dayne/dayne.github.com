@@ -101,5 +101,5 @@ vectors of the UAF trails for the requesting user.
 I've made those available on GitHub at the following
 repos:
 
-* ... coming soon
-* ... coming soon
+* [dayne/uaf-trails](https://github.com/dayne/uaf-trails)
+* [dayne/uaf-skarland-trails](https://github.com/dayne/uaf-skarland-trails)
