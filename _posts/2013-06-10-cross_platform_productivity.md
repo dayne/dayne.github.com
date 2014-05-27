@@ -5,7 +5,7 @@ title: Cross Platform Productivity
 
 # {{page.title}}
 
-<p class='#meta'>12th June 2013 - Fairbanks</p>
+_12th June 2013 - Fairbanks_
 
 <p class="alert alert-success"> See my <a href="/topics/osx-setup.htlm">OSX setup notes</a> for current details </p>
 
@@ -29,7 +29,7 @@ Capslock as Control - I don't care what platform I'm on - I want my control key 
 
 System Preferences -> Keyboard -> Modifier Keys -> Capslock as Control
 
-Terminal hidden in Utilities 
+Terminal hidden in Utilities
 
 *Growl* - Available in AppStore  
 
@@ -53,11 +53,11 @@ I need a TotalTerminal Windows alternative that hands me a PowerShell. I've not 
 
 ## Linux
 
-Terminals everywhere solve my problem.  I miss skitch for Linux. 
+Terminals everywhere solve my problem.  I miss skitch for Linux.
 
 *Gnome DO* or [Launchy](http://www.launchy.net/) - `yum install launchy` - either way bind to control-space again
 
 [Shutter](http://shutter-project.org/) -- `yum install shutter`
 
-For some reason I don't use a TotalTerminal like option in Linux 
+For some reason I don't use a TotalTerminal like option in Linux
 (dispite plenty available).

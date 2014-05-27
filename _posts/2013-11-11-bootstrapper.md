@@ -3,8 +3,8 @@ title: "bootstrapper"
 layout: post
 ---
 # {{page.title}}
- 
-<p class='#meta'>{{page.date}}</p>
+
+_{{page.date}}_
 
 I am considering my recent conversion of this website to [bootstrap](http://getbootstrap.com/) a smashing success.  This post is to to primarily act as a reminder of the basics and to hopefully help guide [Josh](http://josh.broderson.org) on his website rewrite.  You can still see a version of my [old site archived here](/random/trying_out_jekyll.html) which was just a minor modification of the Jekyll author [mojombo's github website](http://tom.preston-werner.com/)
 
@@ -25,7 +25,7 @@ I have kept things fairly simple. Basic of the html is:
 
     <html>
     <head>
-      # you know, title, metata stuff 
+      # you know, title, metata stuff
       # include css (see below)
     </head>
     <body>
@@ -52,7 +52,7 @@ Not a far cry from my first [html5 silly sample](http://dayne.broderson.org/rand
 
     <!-- Latest compiled and minified CSS -->
     <link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.0.2/css/bootstrap.min.css">
-    
+
     <!-- bootstrap jumbotron template css -->
     <link rel="stylesheet" href="/css/jumbotron-narrow.css" type="text/css" />
 

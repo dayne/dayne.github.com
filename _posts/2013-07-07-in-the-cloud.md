@@ -5,6 +5,8 @@ layout: post
 
 # {{page.title}} #
 
+_July 7th, 2013_
+
 [Teknofire](http://teknofire.net) and I have dived into the cloud in the last couple weeks.  _daynes cloud term means: internet magic sauce I am not running the hardware for_
 
 We launched [Damn It Alex](http://damnitalex.com) using GitHub's Jekyll hosting CDN magic. Free cloud hosting by GitHub.  I'll take it.
@@ -13,9 +15,9 @@ Following that super easy success we discussed using Amazon EC2 virtual machines
 
 I had wasted a bunch of time trying to figure out how to combine chef, fog, and EC2 into a recipe and in a fraction of the time Will just clicked through GUI and launched a RHEL6.4 box.
 
-# Amazon EC2 - Just Do It # 
+# Amazon EC2 - Just Do It #
 
-* us-west region 
+* us-west region
 * AMI: ubuntu/images/ebs/ubuntu-raring-13.04-amd64-server-20130423 (ami-bf1d8a8f)
 * Security rules: port 22, and port 80 from everywhere
 * made it easy to just type `ssh cloud` to get into the running instance
@@ -37,7 +39,7 @@ host cloud
   ForwardAgent yes
 </pre>
 <br />
- 
+
 ## Adding 1GB swapfile ##
 
 Then to make sure I had wiggle room during compiles and other silly stuff following:
@@ -46,7 +48,7 @@ Then to make sure I had wiggle room during compiles and other silly stuff follow
 sudo su -
 dd if=/dev/zero of=/swapfile bs=1M count=1024
 mkswap /swapfile
-swapon /swapfile 
+swapon /swapfile
 echo "/swapfile swap swap defaults 0 0" >> /etc/fstab
 </pre>
 <br />
