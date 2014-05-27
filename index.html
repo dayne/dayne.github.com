@@ -5,11 +5,12 @@ title: Dayne Broderson
 
 <div class="well lead">
   <div class="list-group text-left">
-    {% for post in site.posts %}
+    {% for post in site.posts limit:6 %}
     <a class="list-group-item" href="{{ post.url }}">
       {{ post.date | date_to_string }} &raquo; <span style="font-weight: 800;">{{ post.title }}</span>
     </a>
     {% endfor %}
+    <center><a class="list-group-item" href="/posts.html">... all of the posts ...</a></center>
   </div>
 </div>
 
