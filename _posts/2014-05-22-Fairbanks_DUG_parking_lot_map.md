@@ -42,7 +42,8 @@ Then last week [GINA](http://gina.alaska.edu) was
 contacted for a shapefile of the UAF campus trails.
 In the process of digging around the community to find
 the data the email thread expanded out to loop in some
-of the [Fairbanks Drone User Group](http://www.meetup.com/FBXDUG/).
+of the
+[Fairbanks Drone User Group](http://www.meetup.com/FBXDUG/) (DUG).
 The group felt that if we couldn't find the trails as
 shapefiles we could go map the trails using a UAV.  We
 decided to meet up at the IARC/WRRB parking lot and play
@@ -54,6 +55,18 @@ a bit too much to allow unleashing the UAV for real
 mapping efforts so we launched and flew the IARC-WRRB
 parking lot.
 
+Logan Graves of the DUG brought his 3DRobotics quad with
+his GoPro as seen below with the specs he provided.
+
+![Logan's 3Drobotics](/images/uav-parking_lot-logan_UAV.jpg)
+
+* 3DRobotics quad running on an APM 2.5 with GoPro Hero 2
+* x 850KV motors with 10"x4.7" props
+* running on 15A Turnigy Speed Controllers
+* 1.3 GHz video TX for FPV view, a 915 MHz Xbee for telemetry,
+and a 2.4GHz Radio Controller  
+* 4000 mAh battery for a flight time of around 12 minutes  
+
 Logan preparing launch:
 ![launch](/images/uav-parking_lot-gopro-parking_lot_launch-s.jpg)
 
@@ -62,7 +75,7 @@ Shot once it was launched:
 
 ### Processing
 
-The UAV owner and pilot Logan , Logan, was nice enough to
+Logan, the UAV owner and pilot, was nice enough to
 provide me a copy of the imagery collected. I tossed
 the imagery into a demo copy of [Agisoft Photoscan](http://www.agisoft.ru/products/photoscan)
 to see if I could create a point cloud and mesh out
