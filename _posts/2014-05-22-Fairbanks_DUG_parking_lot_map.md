@@ -58,7 +58,7 @@ parking lot.
 Logan Graves of the DUG brought his 3DRobotics quad with
 his GoPro as seen below with the specs he provided.
 
-![Logan's 3Drobotics](/images/uav-parking_lot-logan_UAV.jpg)
+![Logan's 3Drobotics](/images/uav-parking_lot-logan_uav.jpg)
 
 * 3DRobotics quad running on an APM 2.5 with GoPro Hero 2
 * x 850KV motors with 10"x4.7" props
