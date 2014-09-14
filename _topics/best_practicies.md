@@ -14,7 +14,7 @@ Don't be hard on yourself or others while you work through the hard part to make
 
 One time a brilliant brain storming where we took apart a bunch of hard problems and had a plan of attack this was said:
 
-     "all that is left is everything else" -- Mark
+     "now all that is left is everything" -- Mark
 
 ## Collaborate
 
