@@ -6,9 +6,15 @@ This is a list of a few best practices I hope to apply to myself and recommend t
 
 # Avoid Suck
 
-Remember nobody wants to deal with suck - but usually the default unless you and others work on something ends up being sucky.
+Remember nobody wants to deal with or make things that suck - but making things that do not suck is work.
 
 ![suck to not suck](/images/suck-to-not_suck.jpg)
+
+Don't be hard on yourself or others while you work through the hard part to make something awesome.
+
+One time a brilliant brain storming where we took apart a bunch of hard problems and had a plan of attack this was said:
+
+     "all that is left is everything else" -- Mark
 
 ## Collaborate
 
@@ -16,7 +22,7 @@ Remember you aren't the only one wanting to make life better for yourself and ot
 
 I have a whole page on [collaboration tools](/topics/collaboration.html).
 
-# Read Things
+# Read
 
 Here are a few things I've read over the years that helped course correct myself:
 
@@ -25,9 +31,10 @@ Here are a few things I've read over the years that helped course correct myself
 * Pragmatic Programmers
   * Programming is hard - being a good programmer is an art form (that I've personally not mastered but respect and rely on).
 
+
 # Email
 
-I lose at email.  At some point in 2009 I started drowning in it and I realized I can't follow up at the engagement level I expected of myself.  This is why I love collaboration tools, like BaseCamp and GitHub, that capture and open up engagement to a wider audience.
+I lose at email. At some point in 2009 I started drowning in it and I realized I can't follow up at the engagement level I expected of myself.  This is why I love collaboration tools, like BaseCamp and GitHub, that capture and open up engagement to a wider audience.
 
 However email is core communication utility and when I do follow up I try to have the following approach plan:
 
@@ -41,6 +48,13 @@ However email is core communication utility and when I do follow up I try to hav
 * Write in complete thoughts
   * For me this means re-reading at-least once since my thinking method can leave me with half fleshed out paragraphs/sentances
 
+# Standards
+
+Tricky topic here.  You know there are best practices and standards to go with those but there appears to be a proliferation of incompatible standards that have a fundamental approach that doesn't pay attention to the 'Avoid Suck' attitude for themselves and those being subjected to their standards.
+
+Pay attention for and take note when you see somebody making tangible progress on setting or recommending standards that you agree with.
+
+* [Whitehouse API](https://github.com/WhiteHouse/api-standards) - Pragmatic and not crazy recommendations for federal government developers for generating and consuming APIs.  I :heart: they are using :octocat:.
 
 # CHANGELOG
 
