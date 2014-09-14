@@ -46,5 +46,3 @@ To keep straight for yourself and others the data you are providing you will wan
   * _note: use - or . as a separator_ : 2014.09 or 2014-09-13
 * version based : v3.2.0
   * This is well documented at: [SemVer.org](http://semver.org/)
-
-Any di
