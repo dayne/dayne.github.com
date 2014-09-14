@@ -25,24 +25,41 @@ Here are a few things I've read over the years that helped course correct myself
 * Pragmatic Programmers
   * Programming is hard - being a good programmer is an art form (that I've personally not mastered but respect and rely on).
 
+# Email
+
+I lose at email.  At some point in 2009 I started drowning in it and I realized I can't follow up at the engagement level I expected of myself.  This is why I love collaboration tools, like BaseCamp and GitHub, that capture and open up engagement to a wider audience.
+
+However email is core communication utility and when I do follow up I try to have the following approach plan:
+
+* Know what the topic or the goal of the thread before creating or replying to it
+  * Stay on topic - random questions or seperate topics should go into a new thread
+  * If the topic/goal of the thread is fuzzy to you try to reframe what you think it might be and ask the thread to confirm - many times that will provide clarity to yourself and others.
+* Have a thesis statement or question you pose at the top of your email (and description)
+* Make the email description exactly that: descriptive and relevant to the goal of thread
+* Avoid writing a huge block of text - new paragraphs are great for organizing  thoughts and helps others scan the email for the key points.
+  * The return key is your friend and will only make your emails easier to parse for others.
+* Write in complete thoughts
+  * For me this means re-reading at-least once since my thinking method can leave me with half fleshed out paragraphs/sentances
+
+
 # CHANGELOG
 
-Curate a log of the *notible* changes in projects in your life.  
+  Curate a log of the *notible* changes in projects in your life.  
 
-Not just code projects but the other projects you participate in work and life : platforms, partnerships, and organizations (I should have kept a CHANGELOG for [GINA](http://gina.alaska.edu) over the last 10 years).  Think of it as a journal you share so others who want to work with you can track progress and better collaborate with you.
+  Not just code projects but the other projects you participate in work and life : platforms, partnerships, and organizations (I should have kept a CHANGELOG for [GINA](http://gina.alaska.edu) over the last 10 years).  Think of it as a journal you share so others who want to work with you can track progress and better collaborate with you.
 
-To get leveled up fast check out: [keepachangelog.com](http://keepachangelog.com/)
+  To get leveled up fast check out: [keepachangelog.com](http://keepachangelog.com/)
 
-Unrelated except by name - check out the awesome podcast: [thechangelog.com](http://thechangelog.com/)
+  Unrelated except by name - check out the awesome podcast: [thechangelog.com](http://thechangelog.com/)
 
 # Semantic Versioning
 
-You of course have a revision control and data management plan for any content handle in life.  *Right?*
+  You of course have a revision control and data management plan for any content handle in life.  *Right?*
 
-To keep straight for yourself and others the data you are providing you will want a sane version numbering system.  I personally fit into one of two buckets for my versioning:
+  To keep straight for yourself and others the data you are providing you will want a sane version numbering system.  I personally fit into one of two buckets for my versioning:
 
-* date based : YYYY-MM-DD
-  * Use only as much as you need, so if you expect to update no more than once or twice a year and never more than once a month use YYYY-MM
-  * _note: use - or . as a separator_ : 2014.09 or 2014-09-13
-* version based : v3.2.0
-  * This is well documented at: [SemVer.org](http://semver.org/)
+  * date based : YYYY-MM-DD
+    * Use only as much as you need, so if you expect to update no more than once or twice a year and never more than once a month use YYYY-MM
+    * _note: use - or . as a separator_ : 2014.09 or 2014-09-13
+  * version based : v3.2.0
+    * This is well documented at: [SemVer.org](http://semver.org/)
