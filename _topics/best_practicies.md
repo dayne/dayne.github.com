@@ -25,9 +25,6 @@ Here are a few things I've read over the years that helped course correct myself
 * Pragmatic Programmers
   * Programming is hard - being a good programmer is an art form (that I've personally not mastered but respect and rely on).
 
-
-
-
 # CHANGELOG
 
 Curate a log of the *notible* changes in projects in your life.  

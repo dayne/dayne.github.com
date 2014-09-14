@@ -5,7 +5,7 @@ layout: default
 
 Stop putting up artificial barriers to working with others.  Pick and use online collaboration tools that encourage engagement and contributions.
 
-I've found the following to be very handy online collaboration tools:
+If you find yourself working with me you'll probably be subjected to the following tools:  
 
 ## GitHub
 
