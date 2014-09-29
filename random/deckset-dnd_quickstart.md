@@ -75,3 +75,7 @@ This is where the crazy thoughts paper comes in. You might be suprised where thi
 ---
 
 # Choose equipment
+
+---
+
+This is  a test
