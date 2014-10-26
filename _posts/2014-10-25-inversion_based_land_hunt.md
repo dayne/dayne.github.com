@@ -55,6 +55,8 @@ gdaldem hillshade fnsb.2010.dsm-extract.chena_ridge-uwest-campus \
 fnsb.2010.dsm-extract-wf-hillshade -z 1.0 -s 1.0 -az 315.0 -alt 45.0 -of GTiff
 </pre>
 
+![](/images/fnsb-dem-extract-area-hillshade.jpg)
+
 ### Lot for sale test Chena Ridge:
 
 Julie looked up to see what lots are for sale in the Chena Ridge area and found one at 2585 Allen Adale road.
@@ -71,7 +73,7 @@ This is fun but find a spot and checking each one manually against the DEM is to
 
     "fnsb.2010.dsm-extract@1" < 540
 
-Creating the following neat mask effect:
+Creating the following mask effect:
 
 ![](/images/chena_ridge_below_inversion_layer_excluded-small.jpg)
 
@@ -88,3 +90,7 @@ The next steps let me make this a bit more useable:
 By creating a EPSG:4326 GeoJSON as a Gist over at [https://gist.github.com/dayne/bf2364c4faa3e17a6499](https://gist.github.com/dayne/bf2364c4faa3e17a6499) I could then have the following embedded map here:
 
 <script src="https://gist.github.com/dayne/bf2364c4faa3e17a6499.js"></script>
+
+### Ground Truthing
+
+Over this coming winter I'll try and remeber to pay attention when the cold starts and see if this whole dance holds up against reality.
