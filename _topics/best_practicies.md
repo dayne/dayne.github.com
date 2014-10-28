@@ -2,7 +2,7 @@
 title: Best Practices
 layout: default
 ---
-This is a list of a few best practices I hope to apply to myself and recommend to friends.  Reality is these are my goals and many times not a reality (yet).
+This is a list of a few best practices I try to apply to myself and recommend to others.  As much of life these are goals and many times :Reality is these are my goals and many times not a reality (yet).
 
 # Avoid Suck
 
@@ -31,7 +31,6 @@ Here are a few things I've read over the years that helped course correct myself
 * Pragmatic Programmers
   * Programming is hard - being a good programmer is an art form (that I've personally not mastered but respect and rely on).
 
-
 # Email
 
 I lose at email. At some point in 2009 I started drowning in it and I realized I can't follow up at the engagement level I expected of myself.  This is why I love collaboration tools, like BaseCamp and GitHub, that capture and open up engagement to a wider audience.
@@ -48,13 +47,17 @@ However email is core communication utility and when I do follow up I try to hav
 * Write in complete thoughts
   * For me this means re-reading at-least once since my thinking method can leave me with half fleshed out paragraphs/sentances
 
-# Standards
+
+
+# Open Data and Open Standards
 
 Tricky topic here.  You know there are best practices and standards to go with those but there appears to be a proliferation of incompatible standards that have a fundamental approach that doesn't pay attention to the 'Avoid Suck' attitude for themselves and those being subjected to their standards.
 
 Pay attention for and take note when you see somebody making tangible progress on setting or recommending standards that you agree with.
 
-* [Whitehouse API](https://github.com/WhiteHouse/api-standards) - Pragmatic and not crazy recommendations for federal government developers for generating and consuming APIs.  I :heart: they are using :octocat:.
+* [Whitehouse - Project Open Data](http://project-open-data.github.io/)
+* [Whitehouse API](https://github.com/WhiteHouse/api-standards) - Pragmatic and not crazy recommendations for federal government developers for generating and consuming APIs.  I :heart: they are using :octocat: and their use of the term "Pragmatic REST" in their [README](https://github.com/WhiteHouse/api-standards/blob/master/README.md) sold me on paying attention to them.
+* ADIWG]()
 
 # CHANGELOG
 
@@ -75,5 +78,6 @@ Pay attention for and take note when you see somebody making tangible progress o
   * date based : YYYY-MM-DD
     * Use only as much as you need, so if you expect to update no more than once or twice a year and never more than once a month use YYYY-MM
     * _note: use - or . as a separator_ : 2014.09 or 2014-09-13
+    * If you the data is just one of many parts in the name you are capturing then crunch it down to YYYYMM or YYYYMMDD
   * version based : v3.2.0
     * This is well documented at: [SemVer.org](http://semver.org/)

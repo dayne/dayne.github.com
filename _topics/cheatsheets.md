@@ -1,5 +1,5 @@
 ---
-title: cheat sheets
+title: Cheat sheets
 layout: default
 ---
 

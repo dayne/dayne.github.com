@@ -1,5 +1,5 @@
 ---
-title: collaboration
+title: Collaborate
 layout: default
 ---
 

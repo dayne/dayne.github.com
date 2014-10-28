@@ -1,5 +1,5 @@
 ---
-title: markdown
+title: Markdown
 layout: default
 ---
 

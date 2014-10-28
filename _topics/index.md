@@ -1,5 +1,5 @@
 ---
-name: Focused Topics
+title: Focused Topics (index)
 layout: default
 ---
 
