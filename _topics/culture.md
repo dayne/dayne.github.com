@@ -1,10 +1,9 @@
 ---
-title: culture
+title: Culture
 layout: default
 ---
 
-# culture links
-
+# Culture - big deal for me these days
 
 * [netflix culture deck](http://www.slideshare.net/reed2001/culture-1798664) - Netflix itself
 * [move fast break nothing](http://zachholman.com/talk/move-fast-break-nothing/) - GitHubber Zach Holman
