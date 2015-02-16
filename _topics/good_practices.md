@@ -1,5 +1,5 @@
 ---
-title: Best Practices
+title: Good Practices
 layout: default
 ---
 This is a list of a few best practices I try to apply to myself and recommend to others.  As much of life these are goals and many times :Reality is these are my goals and many times not a reality (yet).
