@@ -3,6 +3,7 @@
 * Alaska NSF EPSCoR 2015 Data to Decisions Visualization Workshop 
  * Summary: [Workshop flier](2015-Data_To_Decisions_Visualization_Workshop-flier.jpg) - 3 day workshop agenda](/docs/2015-Data_To_Decisions_Visualization_Workshop-agenda.pdf)
  * Role: Lead collaborator and conviener of the workshop.
+ * Presentation: [Decision Theater North Intro](/docs/2015-D2D-Broderson-Veazey.pdf)
 
 # 2014
 
