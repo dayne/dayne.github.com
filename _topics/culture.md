@@ -3,14 +3,13 @@ title: Culture
 layout: default
 ---
 
-# Culture - big deal for me these days
+# Culture - we all want a good one
 
 * [netflix culture deck](http://www.slideshare.net/reed2001/culture-1798664) - Netflix itself
 * [move fast break nothing](http://zachholman.com/talk/move-fast-break-nothing/) - GitHubber Zach Holman
 * Blameless postmortems - Part of a Just Culture - things will break but don't hang the people - inspect the processes
  * [blameless post-mortems](http://www.infoq.com/news/2014/07/blameless-post-mortems) - tricky thing and should be built into a team
  * [more blameless port-mortem](https://codeascraft.com/2012/05/22/blameless-postmortems/)
- * yeah, if you've worked with me in the past you are right - I'm still working on how to do these.
 * DevOps
  * [The-phoenix-principle](https://kreuzwerker.de/en/blog/posts/the-phoenix-principle-a-devops-concept-explained/)
 

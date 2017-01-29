@@ -26,3 +26,8 @@ git push origin your_cool_patch
 
 * head over to github and click submit pull request
 
+## learning that linux system admin stuff
+
+* [Art of the Command Line](https://github.com/jlevy/the-art-of-command-line)
+* [DNS - the good parts](https://www.petekeen.net/dns-the-good-parts) - good introduction to the key parts of the Domain Name System
+*
