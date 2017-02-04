@@ -18,4 +18,14 @@ A few wonderful resources on this quest have been:
   * [LED series/parallel array wizard](http://led.linear1.org/1led.wiz) - calculate needed resisters and wiring options a set of LEDs in series or parallel.
 * [Resistor Color Code Calculator](http://www.allaboutcircuits.com/tools/resistor-color-code-calculator/) - handy calculator for reading resitor color codes
 
+_What have I been doing so far?_
+
+Learning the basics. Walker was nice enough to give me a [MAKER Soldering Kit](http://www.makershed.com/collections/soldering-tools). Not only did this kit provide me a good soldering iron but it also came with some a set of great learning [Maker Robot](http://makezine.com/projects/maker-faire-2012-electronic-skill-badge/) skill badge. My first attempt failed, second worked, and I went back and could fix the first badge. Great fun.
+
+Followed on by building my own [fume extractor](http://www.darbinorvar.com/blog/2015/10/6/desktop-air-purifier-fume-extractor).  That worked out well but wasn't as pretty as Darbin's.
+
+This was followed up by my real soldering project goal: Soldering together a [Digital Oscilloscope kit](https://www.amazon.com/JYE-DSO-138-Open-Source/dp/B00WAQGGZA). This was an epic project to tackle. This forced me to sort, test, and solder many different components. Really helped me nail down identifying and testing with a multimeter resistors.  Start to finish it took me about 6 hours to put together a $25 digital oscilloscope.
+
+Check out the end result [bootup video](https://goo.gl/photos/AtscKx6maK4vwogu9)
+
 Happy hardware hacking!
