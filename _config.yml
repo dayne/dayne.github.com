@@ -1,4 +1,4 @@
-markdown: rdiscount
+markdown: kramdown
 safe: true
 lsi: false
 highlither: pygments
