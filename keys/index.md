@@ -2,9 +2,17 @@
 layout: default
 ---
 
-Want me to hack your system?  Put one of the following into your .ssh/authorized_keys files:
+Want me to hack your system? Great!
 
-* [id_rsa-2012.pub.soy](id_rsa-2012.pub.soy.txt)
-* [id_rsa.pub.laptop](id_rsa.pub.laptop.txt)
-* [dayne.pub.chef](dayne.pub.chef.txt)
-* [dayne.pub.pickles](dayne.pub.pickles.txt)
+Just take a few of my public keys and toss them in the right spots to give me access to your secrets.
+
+## public ssh keys
+
+I manage my public ssh keys on GitHub.com - they can be grabbed from:
+
+> https://github.com/dayne.keys
+
+
+## GPG keys
+
+Coming soon. 
