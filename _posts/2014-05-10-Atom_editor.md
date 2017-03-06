@@ -36,8 +36,8 @@ Install for your platform and then do the following:
 * Atom Menu &#8594; Install Shell Commands
  * Gives you two command line apps: atom and apm (tool to install pcakges)
 * Atom Menu &#8594; Preferences &#8594; Packages &#8594; Install Packages
- * [Vim Mode](https://atom.io/packages/vim-mode)
-   * ```apm install vim-mode```
+ * [Vim Mode Plus](https://github.com/t9md/atom-vim-mode-plus)
+   * ```apm install vim-mode-plus```
  * [Zen](https://atom.io/packages/Zen) # distraction free writing
    * ```apm install zen```
 
