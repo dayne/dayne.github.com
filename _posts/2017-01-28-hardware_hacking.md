@@ -15,7 +15,7 @@ A few wonderful resources on this quest have been:
 * [resistors - deep dive](https://learn.sparkfun.com/tutorials/resistors) - a good deep dive into resistors by the good folks at [SparkFun](sparkfun.com)
 * [Choosing a Resister](http://www.instructables.com/id/Choosing-The-Resistor-To-Use-With-LEDs/) - This wonderful instruct-able has a link to the following wizards:
   * [LED calculator](http://led.linear1.org/1led.wiz) - calculate what size of resistor a single LED needs for a source voltage.
-  * [LED series/parallel array wizard](http://led.linear1.org/1led.wiz) - calculate needed resisters and wiring options a set of LEDs in series or parallel.
+  * [LED array wizard](http://ledcalculator.net/) - calculate needed resisters and wiring options a set of LEDs in an array.
 * [Resistor Color Code Calculator](http://www.allaboutcircuits.com/tools/resistor-color-code-calculator/) - handy calculator for reading resistor color codes
 
 _What have I been doing so far?_
