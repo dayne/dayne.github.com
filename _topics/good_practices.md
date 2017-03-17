@@ -81,3 +81,7 @@ Pay attention for and take note when you see somebody making tangible progress o
     * If you the data is just one of many parts in the name you are capturing then crunch it down to YYYYMM or YYYYMMDD
   * version based : v3.2.0
     * This is well documented at: [SemVer.org](http://semver.org/)
+
+# commit messages
+
+   Have inteligent commit messages.  Try following the [udacity/git-styleguide](https://udacity.github.io/git-styleguide/)
