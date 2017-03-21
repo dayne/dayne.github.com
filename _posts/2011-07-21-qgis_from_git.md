@@ -3,30 +3,29 @@ layout: post
 title: installing qgis on fedora from git
 ---
 
-h1. {{page.title}}
+# {{page.title}}
 
-p(meta). 21 July 2011 - Fairbanks
+_21 July 2011 - Fairbanks_
 
-_follow up post for "Fedora 15":/2011/08/14/qgis_on_fedora_15.html here_
+*follow up post for [Fedora 15](/2011/08/14/qgis_on_fedora_15.html) here*
 
-h4. Phase one: dependancies 
+#### Phase one: dependencies
 
 This is a bit unorganized yum install collection because as I found missing deps I just kept adding to my notes:
 
 {% highlight bash %}
-yum install cmake flex bison qt4-devel sqlite3-devel qwt-devel \ 
-  git proj-devel geos-devel gdal-devel \ 
+yum install cmake flex bison qt4-devel sqlite3-devel qwt-devel \
+  git proj-devel geos-devel gdal-devel \
   graphviz graphviz-devel doxygen grass-devel grass \
   compat-expat1 expat-devel gsl-devel PyQt4-devel \
   qt-webkit qt-webkit-devel PyQwt PyQwt-devel
 {% endhighlight %}
 
-I had: proj, geos, gdal/ogr from the GINA magic 'mapping tools' sauce.  I'll document how to get that setup on Fedora in another post. 
+I had: proj, geos, gdal/ogr from the GINA magic 'mapping tools' sauce.  I'll document how to get that setup on Fedora in another post.
 
-h4. Phase two: clone repo
+#### Phase two: clone repo
 
 {% highlight bash %}
-###
 mkdir ~/gits
 cd ~/gits
 git clone https://github.com/qgis/Quantum-GIS.git
@@ -35,7 +34,7 @@ mkdir build-master
 cd build-master
 {% endhighlight %}
 
-h4. Phase four: Compile and install
+#### Phase four: Compile and install
 
 Now you begin the fun process of ccmake:
 
@@ -45,11 +44,11 @@ ccmake ..
 
 You keep pressing 'c', if you get an error, fix it.  Press 'c' until you don't get errors any more, then you press 'g' to generate the makefiles.  
 
-Before I pressed 'g'enerate I set my *CMAKE_INSTALL_PREFIX* to be '/home/dbroders/apps' because that is where I wanted my qgis to show up (instead of /usr/local)
+Before I pressed 'g'enerate I set my `CMAKE_INSTALL_PREFIX` to be '/home/dbroders/apps' because that is where I wanted my qgis to show up (instead of /usr/local)
 
 {% highlight bash %}
 make
-# mkdir ~/apps 
+mkdir ~/apps
 make install
 {% endhighlight %}
 
