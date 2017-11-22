@@ -7,6 +7,8 @@ _Introduce yourself, highlight achievements, list credentials and any notable pr
 
 Dayne Broderson is a research and operational IT manager at the University of Alaska Fairbanks Geographic Information Network of Alaska (UAF-GINA).  Dayne performs general and technical management, program development, and outreach for GINA. Dayne has a background in Computer Science (B.S in CS from UAF). Dayne manages systems that receive, process, and distribute near real time satellite data, large geospatial map data, and geospatial application services using systems deployed across multiple data centers in Alaska University campuses in addition to systems within other federal and State of Alaska data centers. Dayne supports and multiple research projects to build out cyberinfrastructure capacity across all three University of Alaska campuses. Dayne helps researchers and agency partners find solutions to manage, host and distribute data and services for research and operational use by a wide spectrum of general public, research, and operational users a variety of networks and systems in Alaska.
 
+Dayne enjoys hacking on Linux systems and exploring new what new capabilities small system on a chip (SoC) computers, like Raspberry Pis, bring for fun projects at home and for real world applications.
+
 --- 
 (2013 era)
 
