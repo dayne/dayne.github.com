@@ -2,6 +2,10 @@
 
 H. Eicken 1\* , A. Mahoney 2 , J. Jones 2 , T. Heinrichs 2 , D. Broderson 2 , H. Statscewich 3 ,T. Weingartner 3 , M. Stuefer 2 , T. Ravens 4 , M. Ivey 5 , A. Merten 6 , J. Zhang 7, [Sustained observations of changing Arctic coastal and marine environments and their potential contribution to Arctic maritime domain awareness: A case study in northern Alaska](/docs/2017-ArcticEnvSec_WhitePaper160124clean.pdf)
 
+# 2016
+
+D. Broderson, A. Veazey, K. Kowalski, V. Raymond, A. Prakash, R.Signor. 2016. Building University Capacity to Visualize complres Problems in the Arctic. _American Geophysical Union Fall Meeting,_ December 12-16, San Fransisco, CA, Abstract ID PA51A-2249 (poster)
+
 # 2015
 
 Jiang Zhu, E. Stevens, E. Weisz, K. Nelson, T. Heinrichs1, J. Cherry, and D. Broderson, 2015, [Data assimilation improves model forecast for cold air aloft in Alaska region, poster, 95th AMS Annual Meeting 4–8 January 2015 • Phoenix, Arizona, USA](/docs/2015-01-ams-95th-final.pdf)
