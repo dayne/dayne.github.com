@@ -29,59 +29,41 @@
 
 ---
 
-Here is Zilla in a medium-strength coat.  It's insulated polar fleece that fastens with velcro.  She actually liked to play in the snow.  I always imagined her sled dog brain going "I want to roll around in the snow!" and her greyhound brain saying "No! I have no body fat!"
-
-I couldn't find a picture of Zilla in her heavy-duty coat and booties, but here is one of Jaws.  The "woe is me" face only lasts until they get outside!
-
-We do have nice warm summers though!  Here are the dogs playing fetch.  Down the street from our house, there is an elementary school with a large fenced field.
-
-Here is Zilla on a hike.  
-
-When we first adopted Jaws, we though she might be part sighthound because of her speedy double-suspension gallop.  But according to her DNA test, she is predominantly catahoula leopard dog and labrador retriever.
-
-When we are home on sunny summer days, we leave the door open and bring some dog beds outside.  Jaws usually gets hot pretty quickly with her black fur but Zilla would sunbathe for quite a while. 
-
-This is one of my favorite pictures.  A few blocks from our house there is a boat launch into a calm river.  Jaws LOVES to swim - I swear she is part fish, so we toss the frisbee for her to retrieve.  Zilla didn't really like to swim in water deeper than she could stand but she liked to wade and splash around near the shoreline.
-
-
 ![IMG_0287.jpg](IMG_0287.jpg)
 
-## 0287
+### Here is Zilla in a medium-strength coat.  It's insulated polar fleece that fastens with velcro.  She actually liked to play in the snow.  I always imagined her sled dog brain going "I want to roll around in the snow!" and her greyhound brain saying "No! I have no body fat!"
 
 ---
 
-![IMG_0881.jpg](IMG_0881.jpg)
+![IMG_3046.jpg](IMG_3046.jpg)
 
-## 0881
+### I couldn't find a picture of Zilla in her heavy-duty coat and booties, but here is one of Jaws.  The "woe is me" face only lasts until they get outside!
+---
+
+
+![IMG_9006.jpg](IMG_9006.jpg)
+
+### We do have nice warm summers though!  Here are the dogs playing fetch.  Down the street from our house, there is an elementary school with a large fenced field.
 
 ---
 
 ![IMG_20140523_163031.jpg](IMG_20140523_163031.jpg)
 
-## 163031
-
+### Here is Zilla on a hike.  
 ---
 
+![IMG_0881.jpg](IMG_0881.jpg)
 
-![IMG_3046.jpg](IMG_3046.jpg)
-
-### 3046
-
----
-
-![IMG_8975.jpg](IMG_8975.jpg)
-
-## 8975
-
----
-
-![IMG_9006.jpg](IMG_9006.jpg)
-
-## 9006
+### When we first adopted Jaws, we though she might be part sighthound because of her speedy double-suspension gallop.  But according to her DNA test, she is predominantly catahoula leopard dog and labrador retriever.
 
 ---
 
 ![Snapchat-1139603611.jpg](Snapchat-1139603611.jpg)
 
-## 113960
+### When we are home on sunny summer days, we leave the door open and bring some dog beds outside.  Jaws usually gets hot pretty quickly with her black fur but Zilla would sunbathe for quite a while. 
 
+---
+
+![IMG_8975.jpg](IMG_8975.jpg)
+
+### This is one of my favorite pictures.  A few blocks from our house there is a boat launch into a calm river.  Jaws LOVES to swim - I swear she is part fish, so we toss the frisbee for her to retrieve.  Zilla didn't really like to swim in water deeper than she could stand but she liked to wade and splash around near the shoreline.
