@@ -1,7 +1,10 @@
 System Administration
 ---------------------
 * Linux and Unix system administration
-* Networking 
+* Networking -
+* Geospatial Services - Client/Server and Desktop 
+* Project Management - 
+* Configuration Management - IT automation using Chef, Terraform, and other DevOps tools to 
 
 
 Project management
