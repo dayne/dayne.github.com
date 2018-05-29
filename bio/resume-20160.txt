@@ -1,0 +1,56 @@
+Dayne Broderson 
+4711 Palo Verde Ave
+Fairbanks AK, 99709
+907-590-1066 broderson@gmail.com
+________________
+
+Education
+
+* University of Alaska Fairbanks
+* Bachelor of Science in Computer Science, 2003.
+________________
+
+Skills and Experience
+
+* Working with customers to determine their goals and participating in the development and implementation of solutions.
+* Providing leadership and championing innovative solutions to advance development of large scale geospatial application development efforts and geospatial collections.
+* Managing a 15 person team of grant-funded staff and balancing a $2.4 million yearly budget of 20+ grant-funded projects.
+* Overseeing projects by other groups and the project approval processes.
+* Maintaining and operating complex IT systems that include computing, storage and virtualization platforms.
+* Leading the cyberinfrastructure team for a multi-campus, multi-year, $20 million National Science Foundation project (EPSCoR ACE).
+* Designing and implementing complex IT systems for use in research and operational environments with multiple security and resiliency requirements.
+* Building and leading multidisciplinary teams through the full life cycle of a project from proposal to completion.
+* Planning, prioritizing, and coordinating the execution of multiple projects and teams to ensure on-time and on-budget completion of projects to the satisfaction of the users and funders of the project.
+* Providing leadership and rapid responses for decision making in large scale projects with changing requirements.
+* Writing, evaluating, and responding to requests for proposals in the area of IT infrastructure and geospatial services.
+* Creating resilient and scalable IT services platforms and lead and develop the teams that support the platforms.
+* Mentoring colleagues and users on the use of various IT systems including virtualization, storage, networking, databases, application development, web services and desktops.
+* Perfecting repeatable, scalable, and automated systems using revision control and configuration management tools.
+________________
+
+Job History
+
+Technical Services Manager - Geographic Information Network of Alaska (GINA) (2012 - Current)
+* Oversee IT at GINA, a geospatial services and satellite data distribution group with a research and operational user base of university, state, federal, and international partners.
+* Serve as Principal Investigator and Co-Investigator multiple federal, state, and private industry projects providing geospatial services and application development.
+* Lead and supervise a team of 12-15 programmers, system administrators, and GIS professionals.
+* Develop and maintain a complex distributed computing environment across multiple networks, data centers, and locations including cloud hosting environments.
+* Design and operate large storage systems including hardware SAN storage systems and software RAID and JBOD systems combined into multiple distributed network storage systems.
+* Design and implement multiple data management systems for use in operational and research environments to power real-time processing systems, data archiving and cataloging, web application backends, and multi-user desktop environments.  
+* Develop multiple virtualization hosting platforms for both operational and research systems at GINA using RHEL/CentOS based KVM and libvirt, VMWare Server, VMWare Workstation and Oracle VirtualBox.
+* Maintain relationships and trust with IT leaders within the University of Alaska, State of Alaska, and federal agencies.
+* Address technical, political, regulatory, and security challenges  while creating systems and networks spanning federal agency, academic, and state networks to optimize the distribution of datasets and services to the end users.
+* Design and implement high-availability and high-performance systems to host and distribute GINA data and services. 
+Systems Analyst - Geographic Information Network of Alaska (2003 - 2011)
+* Worked as Solaris and Linux Systems Analyst for the newly-formed UAF-GINA, a geographic information services and satellite data reception, archiving, processing, and distribution group.
+* Managed the operational computing and storage systems for near real-time satellite data processing and distribution.
+* Designed and implemented the migration from a primarily SUN Solaris based environment to a Linux and Windows environment.
+* Developed tools and web applications for new research projects and GINA systems automation.
+* Applied revision control systems (CVS, SVN and later Git) for managing operation systems and processing software.
+UNIX and Network Systems Analyst - Alaska SAR Facility (2001 - 2003)
+* Served as UNIX and Network Systems Analyst for the Alaska SAR Facility, a NASA funded SAR satellite reception, archiving, and distribution group.
+* Managed, designed, and secured UNIX processing and storage systems (SUN Solaris, SGI IRIX, IBM AIX), FibreChannel storage networks, Storagetek tape silo, and Cisco routers and switches.
+Student Assistant C (UNIX Admin) - Alaska SAR Facility (2000-2001)
+* Managed existing Solaris and Linux systems for ASF - primary role as lead for managing ASF mail server (sendmail) and ASF website using Apache server on SGI Irix system.
+Student Assistant C - UAF Department of Computing and Communications (1997-1999)
+* Provided IT support at the UAF DCC helpdesk - primarily Windows troubleshooting and supporting campus labs and networking.
