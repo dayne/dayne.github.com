@@ -97,6 +97,8 @@ This topic got started with my blog post on [Cross Platform Produtivity](/2013/0
 # OLD STUFF
 Below is the old version (2013 era) setup notes for OSX:
 
+<details><summary>Click to see the old (2013 era) setup notes</summary>
+<p>
 
 # OSX Setup 2013 Era 
 
@@ -218,3 +220,5 @@ curl -L https://www.opscode.com/chef/install.sh | sudo bash
 ## more stuff
 
 * vagrant
+</p>
+</details>
