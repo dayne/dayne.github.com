@@ -1,4 +1,6 @@
 markdown: kramdown
+kramdown:
+  parse_block_html: true
 safe: true
 lsi: false
 highlither: pygments
@@ -13,7 +15,7 @@ post:
   template: _template_post.txt
   extension: md
 editor: vim
-gems:
+plugins:
  - jemoji
  - jekyll-sitemap
 collections:

@@ -1,0 +1,20 @@
+version: '2'
+# https://github.com/BretFisher/jekyll-serve
+# dayne/jekyll-serve is just my own build of that to get a newer version of jekyll
+# than BretFisher had available at the tiem (3.2 vs 3.8)
+# steps taken to make it available:
+#             git clone https://github.com/BretFisher/jekyll-serve
+#             cd jekyll-serve
+#             docker build .
+#             docker tag (image) dayne/jekyll-serve:j_3_8_3 
+#             docker tag (image) dayne/jekyll-serve:latest
+#             docker push dayne/jekyll-serve
+services:
+  jekyll:
+    image: dayne/jekyll-serve
+    volumes:
+      - ./:/site
+    ports:
+      - '7000:7000'
+    command: bundle exec jekyll serve --force_polling -P 7000 --host=0.0.0.0 --config _config.yml
+#,_config_dev.yml 

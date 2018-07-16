@@ -94,12 +94,16 @@ This topic got started with my blog post on [Cross Platform Produtivity](/2013/0
   * (connect my account https://dashboard.ngrok.com/get-started)
 
 ---
-# OLD STUFF
-Below is the old version (2013 era) setup notes for OSX:
+<div class="alert alert-warning"><h2><span class="glyphicon glyphicon-warning-sign"></span> 
+*below is the old stuff*
+</h2></div>
 
-<details><summary>Click to see the old (2013 era) setup notes</summary>
+<details>
+  <summary>
+_Click to see the old (2013 era) setup notes_
+  </summary>
 
-# OSX Setup 2013 Era 
+## OSX Setup 2013 Era 
 
 This topic got started with my blog post on [Cross Platform Produtivity](/2013/06/10/cross_platform_productivity.html).
 
@@ -211,9 +215,5 @@ curl -L https://www.opscode.com/chef/install.sh | sudo bash
 ```
 
 <em>2013.11.23: Latest OSX failed. See following gist for the fix: [install chef OSX mavericks](https://gist.github.com/driesvints/7160641)</em>
-
-<div class="alert alert-warning"><h2><span class="glyphicon glyphicon-warning-sign"></span> 
-*below is unfinished* 
-</h2></div>
 
 </details>
