@@ -38,15 +38,7 @@ This topic got started with my blog post on [Cross Platform Produtivity](/2013/0
 * Terminal App -> Preferences -> General -> Set `Homebrew` as default profile for new windows.
 
 * Install [Spectical App](https://www.spectacleapp.com/) for epic key binding based window management
-  * Created spectacleapp cask _not yet pushed to homebrew_
-    ```
-    brew cask create spectacleapp
-    brew cask install spectacleapp
-    'cd /usr/local/Homebrew/Library/Taps/homebrew/homebrew-cask && git stash pop'
-    brew cask install spectacleapp
-    ```
-  * Grant it access & learn the keys
-  * TODO: Create a PR for it
+  * `brew cask install spectacle`
 
 * typora `brew cask install typora`  for great markdown editing and viewing application.
 
