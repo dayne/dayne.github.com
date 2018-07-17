@@ -19,6 +19,15 @@ This topic got started with my blog post on [Cross Platform Produtivity](/2013/0
 
 * install chrome via homebrew:  `brew cask install google-chrome`
 
+* install [mas](https://github.com/mas-cli/mas): a simple command line interface for the Mac App Store
+  * `brew install mas`
+
+* install Xcode via mas
+  * lucky way: `mas lucky Xcode`
+  * specific search way: `mas search Xcode | head` and identify the aplication code to run Xcode i.e: `mas install 497799835`
+
+* check for out dated Apps using mas: `mas outdated` and even do a `mas upgrade` to install all pending updates needed.
+
 * setup capslock as another control key
   * Settings -> General -> 1) Use Dark Menu 2) Automatically hide menu bar
 
@@ -76,7 +85,7 @@ This topic got started with my blog post on [Cross Platform Produtivity](/2013/0
      * Set Hotkey to `^;` (control and ; together)
      * Check Pin hotkey window
 
-* Install Docker for Mac : https://store.docker.com/editions/community/docker-ce-desktop-mac
+* Install [Docker for Mac](https://store.docker.com/editions/community/docker-ce-desktop-mac)
 
 * Install alfred `brew cask install alfred` and configure it for the control + space hot key
 
