@@ -28,8 +28,8 @@ This topic got started with my blog post on [Cross Platform Produtivity](/2013/0
 
 * Terminal App -> Preferences -> General -> Set `Homebrew` as default profile for new windows.
 
-* Install Spectical for epic key binding based window management
-  * Create spectacleapp cask
+* Install [Spectical App](https://www.spectacleapp.com/) for epic key binding based window management
+  * Created spectacleapp cask _not yet pushed to homebrew_
     ```
     brew cask create spectacleapp
     brew cask install spectacleapp
@@ -39,7 +39,7 @@ This topic got started with my blog post on [Cross Platform Produtivity](/2013/0
   * Grant it access & learn the keys
   * TODO: Create a PR for it
 
-* typora `brew cask install typora`  for great markdown editing and viewing.
+* typora `brew cask install typora`  for great markdown editing and viewing application.
 
 * tmux:  `brew cask install tmux` 
 
