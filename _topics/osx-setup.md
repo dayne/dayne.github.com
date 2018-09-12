@@ -29,7 +29,6 @@ This topic got started with my blog post on [Cross Platform Produtivity](/2013/0
 * check for out dated Apps using mas: `mas outdated` and even do a `mas upgrade` to install all pending updates needed.
 
 * setup capslock as another control key
-  * Settings -> General -> 1) Use Dark Menu 2) Automatically hide menu bar
 
 * Clean-up the Dock
   * Remove most of the apps, ensure terminal & chrome are pinned to dock, auto-launch terminal on boot
@@ -93,6 +92,21 @@ This topic got started with my blog post on [Cross Platform Produtivity](/2013/0
 
 * `brew install ngrok`
   * (connect my account https://dashboard.ngrok.com/get-started)
+
+* `brew cask install scribus-dev` - desktop publishing app [scribus](https://www.scribus.net/)
+
+* QGIS2 (LTR) install
+  * `brew tap osgeo/osgeo4mac`
+  * `brew cask install xquartz`
+  * `brew install qgis2`
+  * ```
+    pip install psycopg2 matplotlib pyparsing \
+                requests future jinja2 pygments
+    ln -Fs `find $(brew --prefix) -name "QGIS.app"` /Applications/QGIS.app
+    qgis2 # launch & test
+    ```
+
+
 
 ---
 <div class="alert alert-warning"><h2><span class="glyphicon glyphicon-warning-sign"></span> 
