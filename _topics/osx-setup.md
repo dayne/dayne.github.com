@@ -83,7 +83,20 @@ This topic got started with my blog post on [Cross Platform Produtivity](/2013/0
 * Install Ruby
   * ruby-install `brew install ruby-install`
   * chruby `brew install chruby`
-  * ruby-install Install Ruby: `ruby-install ruby-2.5.1`
+  * ruby-install Install Ruby:
+    ```
+    echo ruby-2.5.1 > ~/.ruby-version
+    ruby-install `cat ~/.ruby-version`
+    ```
+  * edit ~/.bashrc and add 
+    ```
+    source /usr/local/share/chruby/chruby.sh
+    chruby `cat ~/.ruby-version`
+    gem install bundler
+    cd ~/.rubies # dayne sauce
+    bundl
+    ```
+  * enjoy ruby
 
 * Install Gimp photo editor - `brew cask install gimp`
   * alias gimp='open -a gimp'
@@ -106,6 +119,12 @@ This topic got started with my blog post on [Cross Platform Produtivity](/2013/0
     qgis2 # launch & test
     ```
 
+* ruby 2.5.1
+  ```
+  ruby-install ruby-2.5.1
+  brew install chruby
+  chruby ruby-2.5.1
+  ```
 
 
 ---
