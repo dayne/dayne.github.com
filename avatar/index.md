@@ -4,3 +4,4 @@
 * ![](dayne-avatar-bw_posterized-sm.png)
 * ![](dayne-avatar-bw_posterized.png)
 * ![](dayne-avatar-simple.png)
+* ![](bitmoji-avatar.png)
