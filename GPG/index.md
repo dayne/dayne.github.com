@@ -3,9 +3,12 @@ title: GPG keys
 layout: default
 ---
 
-# GPG keys
 
-My keys details available at [here](./2018/)
+My current GPG keys are available at [dayne.broderson.org/GPG/2018](./2018)
+
+---
+
+# GPG quick start
 
 ## generate a new key:
 
