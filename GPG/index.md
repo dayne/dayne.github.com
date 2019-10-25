@@ -26,29 +26,56 @@ gpg --full-generate-key
 * Email: `user@example.com`
 * Comment: `https://yourwebsite.example.com/gpg-key-YYYY.key`
 
-## list keys
+## get key id and public key file
 
 `gpg --list-secret-keys --keyid-format LONG`
 
 ```
-key_id=$(gpg --list-secret-keys --keyid-format LONG | grep sec \
+GPG_KEY_ID=$(gpg --list-secret-keys --keyid-format LONG | grep sec \
          | sed 's/\// /g' | awk '{print $3}')
-echo key_id=$key_id
-gpg --armor --export $key_id > $key_id.gpg.pub
-echo "exported key_id as GPG public key file: $key_id.gpg.pub"
-git config --global user.signingkey $key_id
+echo GPG_KEY_ID=$GPG_KEY_ID
+gpg --armor --export $GPG_KEY_ID > $GPG_KEY_ID.gpg.pub
+echo "exported GPG_KEY_ID as GPG public key file: $GPG_KEY_ID.gpg.pub"
 ```
 
-Add the key gpg.pub to your [GitHub account
-settings](https://github.com/settings/keys)
+## incorperate the key into life
 
-Verify your keys (or some other users) with:
+### configure git to use it as signing key
 
-[https://api.github.com/users/USERNAME/gpg_keys](https://api.github.com/users/dayne/gpg_keys)
+`git config --global user.signingkey $GPG_KEY_ID`
 
-##
+Then add the public key (`$GPG_KEY_ID.gpg.pub`) to your [GitHub account
+settings](https://github.com/settings/keys).  More details at [GitHub's help
+page](https://help.github.com/articles/telling-git-about-your-signing-key/)
 
-https://help.github.com/articles/telling-git-about-your-signing-key/
+## configure pass to use your gpg key
+
+if you've not setup pass here is quick start:
+```
+sudo apt install pass
+```
+
+Initialize pass with your GPG key:
+```
+pass init $GPG_KEY_ID
+```
+
+## setup docker to use it
+
+
+* install docker-credential-helpers in your path
+* config `.docker/config.json` with  
+  ```
+  { 
+     "credsStore": "pass"
+  }
+  ```
+* `docker login`
+* verify it worked with `pass` - should see a `docker-credential-helpers` as one
+  of the storage buckets.
+
+More detail in https://github.com/docker/docker-credential-helpers/issues/102
+
 
 ## curses gpg-agent
 Making gpg-agent work well in command line only mode:
