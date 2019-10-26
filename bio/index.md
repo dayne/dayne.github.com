@@ -1,11 +1,16 @@
 # bio's for Dayne through time
 
-### Job list: 
-Computer and Information Research Scientist - Alaska Center for Energy and Power (ACEP) - 2018-Current
-Deputy Director - Geographic Information Network of Alaska (GINA) - 2015-2018
-Technical Services Manager - Geographic Information Network of Alaska (GINA) - 2012-2015
-Unix/Linux systems and network engineer - Geographic Information Network of Alaska (GINA) - 2004-2012     
-Unix System Engineer - Alaska SAR Facility (ASF) - 2001-2004
+### Primary job history:
+
+* Computer and Information Research Scientist - Alaska Center for Energy and Power (ACEP) - 2018-Current
+* Deputy Director - Geographic Information Network of Alaska (GINA) - 2015-2018
+* Technical Services Manager - Geographic Information Network of Alaska (GINA) - 2012-2015
+* Unix/Linux systems and network engineer - Geographic Information Network of Alaska (GINA) - 2004-2012     
+* Unix System Engineer - Alaska SAR Facility (ASF) - 2001-2004
+* Student Desktop Support - University of Alaska Dept. of Computing &
+  Communcation - Winters: 1998-2001
+* Sonar Technician - Alaska Dept. of Fish & Game - Summers: 1997-1999
+* Commercial fish processing line worker - Wards Cove Packing Company - Summers: 1993-1996
 
 --- 
 
