@@ -1,5 +1,12 @@
 # bio's for Dayne through time
 
+### Job list: 
+Computer and Information Research Scientist - Alaska Center for Energy and Power (ACEP) - 2018-Current
+Deputy Director - Geographic Information Network of Alaska (GINA) - 2015-2018
+Technical Services Manager - Geographic Information Network of Alaska (GINA) - 2012-2015
+Unix/Linux systems and network engineer - Geographic Information Network of Alaska (GINA) - 2004-2012     
+Unix System Engineer - Alaska SAR Facility (ASF) - 2001-2004
+
 --- 
 
 ### (2019)
@@ -7,7 +14,7 @@
 Dayne Broderson is a research and program manager at the University of Alaska
 Fairbanks Alaska Center for Energy and Power (UAF-ACEP). Dayne performs general
 and technical management, program development, and data and IT systems
-development for ACEP.  Dayne has a background in Compter Science (B.S. in CS
+development for ACEP.  Dayne has a background in Computer Science (B.S. in CS
 from UAF). Dayne supports the ACEP Data Collection & Analysis team 
 
 _Overview from LI:_
