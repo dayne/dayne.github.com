@@ -4,7 +4,7 @@ H. Eicken 1\* , A. Mahoney 2 , J. Jones 2 , T. Heinrichs 2 , D. Broderson 2 , H.
 
 # 2016
 
-D. Broderson, A. Veazey, K. Kowalski, V. Raymond, A. Prakash, R.Signor. 2016. Building University Capacity to Visualize complres Problems in the Arctic. _American Geophysical Union Fall Meeting,_ December 12-16, San Fransisco, CA, Abstract ID PA51A-2249 (poster)
+D. Broderson, A. Veazey, K. Kowalski, V. Raymond, A. Prakash, R.Signor. 2016. Building University Capacity to Visualize complex Problems in the Arctic. _American Geophysical Union Fall Meeting,_ December 12-16, San Francisco, CA, Abstract ID PA51A-2249 (poster)
 
 # 2015
 
