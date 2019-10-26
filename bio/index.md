@@ -8,7 +8,7 @@
 * Unix/Linux systems and network engineer - Geographic Information Network of Alaska (GINA) - 2004-2012     
 * Unix System Engineer - Alaska SAR Facility (ASF) - 2001-2004
 * Student Desktop Support - University of Alaska Dept. of Computing &
-  Communcation - Winters: 1998-2001
+  Communication - Winters: 1998-2001
 * Sonar Technician - Alaska Dept. of Fish & Game - Summers: 1997-1999
 * Commercial fish processing line worker - Wards Cove Packing Company - Summers: 1993-1996
 
