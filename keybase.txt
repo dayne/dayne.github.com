@@ -1,0 +1,56 @@
+==================================================================
+https://keybase.io/dayne
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of https://dayne.broderson.org
+  * I am dayne (https://keybase.io/dayne) on keybase.
+  * I have a public key ASCfAqF-4Z-fxbKwHA0wf9GBKcDe22Q-2iXzNtHubFZJRQo
+
+To do so, I am signing this object:
+
+{
+  "body": {
+    "key": {
+      "eldest_kid": "01209f02a17ee19f9fc5b2b01c0d307fd18129c0dedb643eda25f336d1ee6c5649450a",
+      "host": "keybase.io",
+      "kid": "01209f02a17ee19f9fc5b2b01c0d307fd18129c0dedb643eda25f336d1ee6c5649450a",
+      "uid": "22e4ec35af22e17e328527c4b231c019",
+      "username": "dayne"
+    },
+    "merkle_root": {
+      "ctime": 1572556856,
+      "hash": "986d7030bc2c0cb5a7563ce6909b0ef954d52686cc6df36b43c5f08d26c618d2922f248e2bd3d0e0bfafed7d5e5b21fb7ec0dcc0397b0b1b22325d5f1500c5c0",
+      "hash_meta": "788bd93951cc8b5816404de834ffa48bf698e323072b164d3b8564c1251b31c3",
+      "seqno": 8574836
+    },
+    "service": {
+      "entropy": "jSnYHoE+IQXTo9zTAu9mucA8",
+      "hostname": "dayne.broderson.org",
+      "protocol": "https:"
+    },
+    "type": "web_service_binding",
+    "version": 2
+  },
+  "client": {
+    "name": "keybase.io go client",
+    "version": "4.7.2"
+  },
+  "ctime": 1572556867,
+  "expire_in": 504576000,
+  "prev": "60848b3dfd5dfe03d377edb2b9cd2209b47d96e3d494c0ea42893953fc8f3a69",
+  "seqno": 15,
+  "tag": "signature"
+}
+
+which yields the signature:
+
+hKRib2R5hqhkZXRhY2hlZMOpaGFzaF90eXBlCqNrZXnEIwEgnwKhfuGfn8WysBwNMH/RgSnA3ttkPtol8zbR7mxWSUUKp3BheWxvYWTESpcCD8QgYISLPf1d/gPTd+2yuc0iCbR9luPUlMDqQok5U/yPOmnEIHmIe521gpwcitCcItlVKSv1BbNihGcd7PWvwI5LCzySAgHCo3NpZ8RA9NuMnZMiQy65iywzs+W0PbUYJklLYPjVHMOndXf5cXX/wGj5VsVqLvUUUZEnrtF1GrsQehP1+cgNdJ297AF7DqhzaWdfdHlwZSCkaGFzaIKkdHlwZQildmFsdWXEINNjA6QTs8xoftrNRO+Af2ZfZmo8rcdk7c1QXjD63oClo3RhZ80CAqd2ZXJzaW9uAQ==
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/dayne
+
+==================================================================
