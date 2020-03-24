@@ -14,6 +14,12 @@
 
 --- 
 
+### (2020)
+
+Dayne Broderson is a research and program manager at the University of Alaska Fairbanks Alaska Center for Energy and Power (UAF-ACEP). Dayne performs general and technical management, program development, and data and IT systems development for ACEP. Dayne has 20 years experience in research and operational IT & Data Systems for Academic, Federal, State and local government organizations. Dayne has a background in Computer Science (B.S. in CS from UAF). 
+
+[2020 CV](./CV-Dayne_Broderson-2020_DOD_1_pager.pdf)
+
 ### (2019)
 
 Dayne Broderson is a research and program manager at the University of Alaska
