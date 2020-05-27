@@ -1,28 +1,51 @@
 ---
-title: "Time.now? - Time management on Raspberry Pi"
+title: "Time management on Raspberry Pi"
 layout: post
 ---
 # {{page.title}}
 <p class='#meta'>{{page.date}}</p>  
 
-How does your Raspberry Pi answer the following basic question and what goes wrong when
-it can't provide a good answer:
-> What is the current time?
+
 
 ### What is time?
+
+> _Time is the indefinite continued progress of existence and events that occur in an apparently irreversible succession from the past, through the present, into the future._ [*](https://en.wikipedia.org/wiki/Time)
+
+Here we will focus on something a bit more tangible. How does your Raspberry Pi answer the basic question: **_What time is it?_**
+
+
+Overly simlified time tracking on a computer:
+
+* Keep a count how many seconds it has been since January 1st 1960.
+* Count is kept track of as a single number that ticks up every second.
+* A timesource tells computer what the current count is.
+  * You can be the time source by manually configuring time.
+  * The computer can ask another computer for current time (network / cell
+    network)
+* Configuring computer's timezone allows translation of the number to the local time.
+
+After getting current time and timezone is a computer can
+easily keep track of time progressing forward **_while it has power_**.
+
+### Keeping track of time without power.
+
+To keep track of time without power you need a reliable source of time when power
+restored.  This is accomplished in most computers using a [Real-Time
+Clock](https://en.wikipedia.org/wiki/Real-time_clock) (RTC).  An RTC often have
+an alternative power source, like a lithium battery or super capacitor, so they can keep track of time when primary computer power is not available. An RTC typically uses a crystal oscillator like used in clocks and watches to keep track of a consistent count allowing the computer to reload 'current' time.
 
 
 ### How do we keep track of that in a computer?
 
 RaspberryPis, unlike our laptops and PCs, do not have a "real time clock" (RTC), which is a little low powered counter (with a battery) that keeps track of a count (time) even when the computer is turned off and unplugged.
 
-This means when a Pi boots up it defaults to a specific time and then starts keeping track of time from there.  The default we deal with is usually when either Raspbian was released or when a t3 image was created..  this could be many months prior to when you are booting up. 
+This means when a Pi boots up it defaults to the last time it had prior to boot up and then starts keeping track of time from there.  The default we deal with is usually when either Raspbian was released or when a t3 image was created. This could be many months prior to when you are booting up. 
 
-The pi defaults to attempting to pull current time from the Internet if it has access... so an internet connected pi will automatically find the current time.  Once it has a current time if you reboot it it will use the last time it had before reboot.. so you only lose a minute or two of time.. and if it still has internet it will update the time again.
+The pi defaults to pull current time from the Internet if it has access. An internet connected pi will automatically find the current time.  Once it has a current time if you reboot it it will use the last time it had before reboot so you only lose a minute or two of time and if it still has internet it will update the time again.
 
-All of these time it auto downloads are put into whatever timezone the pi is configured for.  Default Raspbian is in UK (British) timezone.  Default T3 images are in Hawaiian timezone. 
+Timezones: The converstion of current time to the local time is done through applying the local timezone to the current time. Default Raspbian is in UK (British) timezone.  Default T3 images are in Hawaiian timezone. 
 
-Upon a first boot a Raspberry Pi / T3 pi will ask you to set the timezone.. after that it doesn't ask and you have to manually configure it.
+Upon a first boot a Raspberry Pi / T3 pi will ask you to set the timezone. After that it doesn't ask and you have to manually configure it.
 
 ### How does the Pi get time from the Internet?
 
@@ -84,9 +107,7 @@ See how result is similar to your date format Jasmine?  Well you can use that di
 
 `date -s "$(curl -s --head http://google.com | grep ^Date: | sed 's/Date: //g')"`
 
-The command line has powerful voodoo!
-
-@hilo90mhz#6621  you might appriciate this silly way of using the `/dev/net` interface: `cat < /dev/tcp/time.nist.gov/13`
+[hilo90mhz](https://twitter.com/chesterlowrey) thought of this silly way of using the `/dev/net` interface: `cat < /dev/tcp/time.nist.gov/13`
 
 Example:
 ```
@@ -94,10 +115,12 @@ cat < /dev/tcp/time.nist.gov/13
 
 58920 20-03-12 20:32:13 50 0 0 941.9 UTC(NIST) *
 ```
-J
+
 Not as easy to directly use the result from that as the curl example but kinda crazy to think about.
+
+The command line has powerful voodoo!
 
 ### T3 time
 
-https://t3alliance.org/lessons/rpi-time-and-timezones/
-T³ Alliance
+More details from T3 on this: [T³ Alliance rpi-time and timezones](https://t3alliance.org/lessons/rpi-time-and-timezones/)
+
