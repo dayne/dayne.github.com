@@ -49,12 +49,16 @@ Upon a first boot a Raspberry Pi / T3 pi will ask you to set the timezone. After
 
 ### How does the Pi get time from the Internet?
 
-The default pathway for getting time is to use NTP.  Network Time Protocol.  This is network standard for synchronizing time between computers.  There is an international pool of time servers that partner up and run NTP servers for you to pull time from.  Default NTP server ports are 123.  However, client (your pi) connection to the server requires bidirectional communication.
+The default pathway for getting time is to use [Network Time Protocol (NTP)](http://www.ntp.org/).  This is network standard for synchronizing time between computers.  There is an international pool of time servers that partner up and run NTP servers for you to pull time from.  
+
+Default NTP server ports are 123 and require bidirectional communication between the server and the client (your pi).
 
 School firewalls will block non-standard ports and many schools consider NTP non-standard.  So they may block direct NTP server access and/or block the other bidirectional traffic involved in the synchronization process. 
 
-In the school blocking NTP access scenario you two options: Find an NTP server inside the network you are authorized to connect to and manually use it or find an alternative pathway to get time (a hotspot or different non-blocked pathway).
-Another option we could consider where a school is blocking NTP but is not blocking web traffic would be to use another time sync protocol & tool that gets time from web servers.
+In the school blocking NTP access scenario you two options: 
+
+* Find an NTP server inside the network you are authorized to connect to and manually use it or find an alternative pathway to get time (a hotspot or different non-blocked pathway).
+* A school blocking NTP but not blocking web traffic opens up opportunity to use a different time sync protocol & tool that gets time from web servers: htpdate. (see below)
 
 
 ### Wibbly Wobbly Work-arounds
@@ -70,8 +74,12 @@ the National Institute of Standardsa nd Technology's time server.
 sudo install htpdate 
 sudo htpdate google.com
 ```
+
 You could set the Pi up to auto-run htpdate google.com after every reboot and every hour or so using a cronjob or something
 
+Bonus to htpdate approach is you can do your time sync via HTTPS meaning your time synchronization is fully encrypted and therefor more difficult to do cyber sniffing or attacks against.... but that isn't really a serious risk issue to worry about in most contexts.
+
+What I really wish you could do is add htpdate as a fallback when the ntpdate pool fails. 
 
 ### What happens if you don't have Internet readily available?  
 
@@ -79,14 +87,7 @@ This pulls you back to that earlier discussion of a Real Time Clock (RTC).
 
 You can get an RTC for a Pi.  Install the RTC,which comes with a battery, and then you just have to make it aware it has an RTC to use to keep track of time between reboots, set the time either manually or via an Internet connection once, and it will keep track of time like a normal computer (with some small amount of skew over time because no RTC is perfect)>
 
-Another offline time source is using a GPS.  GPS adapters/attachments provide time and you can configure your Pi to pull time from that if it is available.
-@Chester we should default to installing htpdate and perhaps consider having it added to rc.local for on-boot (with a delay perhaps) as a back-up pathway but I think leaving the default ntp setup would be recommended as a more general solution.
-it doesn't hurt to double synchornize to correct time.. but I'd keep the default ntp pool approach over switching to an htpdate focused approach.
-
-What I really wish you could do is add htpdate as a fallback when the ntpdate pool fails. 
-
-Bonus to htpdate approach is you can do your time sync via HTTPS meaning your time synchronization is fully encrypted and therefor more difficult to do cyber sniffing or attacks against.... but that isn't really a serious risk issue to worry about in t3 context
-
+Another offline time source is using a GPS.  GPS adapters/attachments provide time and you can configure your Pi to pull time from the GPS unit.
 
 ### Silly Examples of Getting the Date
 
