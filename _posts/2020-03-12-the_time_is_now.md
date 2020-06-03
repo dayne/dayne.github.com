@@ -9,9 +9,11 @@ layout: post
 
 ### What is time?
 
-> _Time is the indefinite continued progress of existence and events that occur in an apparently irreversible succession from the past, through the present, into the future._ [*](https://en.wikipedia.org/wiki/Time)
+> _Time is the indefinite continued progress of existence and events that occur in an apparently irreversible succession from the past, through the present, into the future. [*](https://en.wikipedia.org/wiki/Time)_
 
-Here we will focus on something a bit more tangible. How does your Raspberry Pi answer the basic question: **_What time is it?_**
+Here we will focus on something a bit more tangible. How does your Raspberry Pi answer the basic question: 
+
+> **_What time is it?_**
 
 
 Overly simlified time tracking on a computer:
@@ -24,20 +26,20 @@ Overly simlified time tracking on a computer:
     network)
 * Configuring computer's timezone allows translation of the number to the local time.
 
-After getting current time and timezone is a computer can
-easily keep track of time progressing forward **_while it has power_**.
+Once a compuer has the current time and a timezone set it can easily keep track of time progressing forward **_while it has power_**.
 
 ### Keeping track of time without power.
 
 To keep track of time without power you need a reliable source of time when power
-restored.  This is accomplished in most computers using a [Real-Time
-Clock](https://en.wikipedia.org/wiki/Real-time_clock) (RTC).  An RTC often have
-an alternative power source, like a lithium battery or super capacitor, so they can keep track of time when primary computer power is not available. An RTC typically uses a crystal oscillator like used in clocks and watches to keep track of a consistent count allowing the computer to reload 'current' time.
+restored.  
 
+Most computers we deal with have a [real-time clock](https://en.wikipedia.org/wiki/Real-time_clock) (RTC), which is a little low powered counter (with a battery) that keeps track of a count (time) even when the computer is turned off and unplugged.  
+
+An RTC typically uses a crystal oscillator, like those used in clocks and watches, to keep track of a consistent count allowing the computer to reload 'current' time based on checking on the RTC's counter when it boots backup..
 
 ### How do we keep track of that in a computer?
 
-RaspberryPis, unlike our laptops and PCs, do not have a "real time clock" (RTC), which is a little low powered counter (with a battery) that keeps track of a count (time) even when the computer is turned off and unplugged.
+RaspberryPis, unlike our laptops and PCs, do not have an RTC.
 
 This means when a Pi boots up it defaults to the last time it had prior to boot up and then starts keeping track of time from there.  The default we deal with is usually when either Raspbian was released or when a t3 image was created. This could be many months prior to when you are booting up. 
 
