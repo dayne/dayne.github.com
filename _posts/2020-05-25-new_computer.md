@@ -38,3 +38,6 @@ Win10 box. 3 monitors (one G-SYNC).
   * `Model: MZ - V7E1T0`
 * Power Supply:
   * `Seasonic Focus GX-650`
+* Headset:
+ * `SteelSeries Arctis 1 Wireless Gaming Headset` 
+ * USB-C Wireless - Detachable
