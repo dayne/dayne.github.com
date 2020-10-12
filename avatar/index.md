@@ -10,4 +10,4 @@
 
 ![](bitmoji-avatar.png)
 
-![](dayne-spotlight.jpg)
+![](https://media.githubusercontent.com/media/dayne/dayne.github.com/master/avatar/dayne-spotlight.jpg)
