@@ -4,7 +4,13 @@
 Summary of key projects and roles I have lead as either a primary investigator (PI), as a co-PI, or been the leading project manager of the project.
 
 ### Primary Investigator (PI):
-
+* 2021-2024: Alaska Regional Collaboration for Technology, Innovation and
+  Commercialization (ARCTIC) II.  The ARCTIC II project expanded the existing
+program with the development of Community Innovation Network in Alaska.
+  * Lead the development & implimentation of the grant.
+  * Program lead for a
+* 2019-2022: Eielson Resiliency Microgrid & Research Data Archive
+  * Lead the UAF team to support the Eaton Corporation's project to deply an advanced metering system on the Eielson Air Force base to detect, understand, and develop ways to dealw ith power quality issues. 
 * 2010-2016: Susitna-Watana Hydroelectric Project Geospatial data management.
   * Lead GINA team in supporting the Alaska Energy Authority in creating a geospatial collaboration platform and distribution platform for large and complex geospatial datasets.
 * 2017-2018: Susitna-Watana Hydroelectric Cumulative data archive and distribution project.  
@@ -25,10 +31,11 @@ Summary of key projects and roles I have lead as either a primary investigator (
   * Successfully managed the project through the design and development of the model, packaging of the model for use in local environments, and the model results website and dashboard for the browsing of the model results. 
 
 ### CO-I or lead project manager:
-
+* 2019-2021: DOE CDPS
+  * Program Director for the Dept. of Energy EPSCoR implimentation grant _Development and validation of models to assess dynamic response of converter-dominated power systems across multiple spatiotemporal scales_ a.k.a Modeling of Converter Dominated Power Systems (CDPS).  A research partnership between energy research teams in Alaska, South Dakota, Puerto Rico, and Hawaii.
 * 2016-2017: Strategic Studies for Alaska - ASRC Federal Mission Solutions LLC 
   * Partnered with ASRC to identify new research tasks and support their implementation.
-    *  Evaluation of satellite bases sea ice monitoring and remote sensing and managed 
+    * Evaluation of satellite bases sea ice monitoring and remote sensing and managed 
     * Managed an intern program of UAF students/ASRC interns were embedded with GINA.  Oversaw intern development of a Raspberry Pi based temperature system package for monitoring ice cellar health.
 * 2013-2018: Development, Processing, and Distribution of Satellite Data Products for Monitoring Landscape Processes in Alaska National Parks - National Park Service
   * Partnered with NPS to oversee the mapping of the Glacier Bay National Park.  
@@ -43,10 +50,8 @@ Summary of key projects and roles I have lead as either a primary investigator (
 * 2014: USDA-NRCS - Delta Agricultural Area Imagery - USDA NRCS - (100k) 
   * Planning, mapping, QA/QC, and distribution of an updated aerial imagery map of the Delta area.
 * 2007-2017: UAF Project Management of Imagery and DEM Basecamp for Alaska Coastal Districts - State of Alaska Department of Natural Resources (472K)
-  * 
 * 2007-2017: Data Services for North Slope Science Initiative (NSSI)
   * Technical lead for geospatial data management, services, and the development of GLynx a Geospatial Catalog.
 * 2009: BLM - Aerial Photo Archive and Distribution System 
-  * 
 * 2009-2011: Alaska Energy Data Inventory Project
   * Raster Data Saving - Alaska Energy Authority.

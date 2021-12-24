@@ -1,3 +1,8 @@
+---
+title: Bio Stuff
+layout: default
+---
+
 # bio's for Dayne through time
 
 ### Primary job history:
@@ -13,6 +18,9 @@
 * Commercial fish processing line worker - Wards Cove Packing Company - Summers: 1993-1996
 
 --- 
+
+### (2021)
+
 
 ### (2020)
 
