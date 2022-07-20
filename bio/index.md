@@ -19,8 +19,9 @@ layout: default
 
 --- 
 
-### (2021)
+### (2022)
 
+Dayne Broderson is a Computer and Information Research Scientist and Manager with a background in Computer Science (B.S. in CS from UAF). Dayne has performed general and technical management, program development, and data and IT systems development at the University of Alaska Fairbanks with 20 years of experience in research and operational IT & Data Systems for Academic, Federal, State, and local government organizations. At ACEP, Dayne leads the Data Collection & Management Program and is the project director of two of ACEP’s capacity-building programs: The Alaska Regional Collaboration for Technology Innovation and Commercialization (ARCTIC)  Program and the Modeling Converter Dominiated Power System project. Dayne is on the leadership team of the Teaching Through Technology (T3) Alliance Board and the Cheif Technologist for the UAF Alaska T3 program. Dayne will lead the development of the app-based communication and outreach toolsets and support the energy education and outreach team’s activities. 
 
 ### (2020)
 
