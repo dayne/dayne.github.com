@@ -16,7 +16,7 @@ Here we will focus on something a bit more tangible. How does your Raspberry Pi 
 > **_What time is it?_**
 
 
-Overly simlified time tracking on a computer:
+Overly simplified time tracking on a computer:
 
 * Keep a count how many seconds it has been since January 1st 1960.
 * Count is kept track of as a single number that ticks up every second.
@@ -39,15 +39,15 @@ An RTC typically uses a crystal oscillator, like those used in clocks and watche
 
 ### How do we keep track of that in a computer?
 
-RaspberryPis, unlike our laptops and PCs, do not have an RTC.
+Raspberry Pis, unlike our laptops and PCs, do not have an RTC.
 
-This means when a Pi boots up it defaults to the last time it had prior to boot up and then starts keeping track of time from there.  The default we deal with is usually when either Raspbian was released or when a t3 image was created. This could be many months prior to when you are booting up. 
+This means when a Pi boots up it defaults to the last time it had prior to boot up and then starts keeping track of time from there.  The default we deal with is usually when either Raspbian was released or when a T3 image was created. This could be many months prior to when you are booting up. 
 
-The pi defaults to pull current time from the Internet if it has access. An internet connected pi will automatically find the current time.  Once it has a current time if you reboot it it will use the last time it had before reboot so you only lose a minute or two of time and if it still has internet it will update the time again.
+The Pi defaults to pull current time from the Internet if it has access. An internet connected pi will automatically find the current time.  Once it has a current time if you reboot it it will use the last time it had before reboot so you only lose a minute or two of time and if it still has internet it will update the time again.
 
 Timezones: The converstion of current time to the local time is done through applying the local timezone to the current time. Default Raspbian is in UK (British) timezone.  Default T3 images are in Hawaiian timezone. 
 
-Upon a first boot a Raspberry Pi / T3 pi will ask you to set the timezone. After that it doesn't ask and you have to manually configure it.
+Upon a first boot a Raspberry Pi / T3 Pi will ask you to set the timezone. After that it doesn't ask and you have to manually configure it.
 
 ### How does the Pi get time from the Internet?
 
